@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "240442942",
+    "project_id": "firebase-mozgolomki"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240442942:android:e455d89a2d152ae7",
+        "android_client_info": {
+          "package_name": "com.example.ams.golovolomki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240442942-vetg8l5kha1rfqkm4144tc49kltubn2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ams.golovolomki",
+            "certificate_hash": "816663460EAD0E5D380712E0C37C07B47231DF97"
+          }
+        },
+        {
+          "client_id": "240442942-5rouh0f875u192qbn1r12k4m0bblj6su.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsVoB8AQ1hIWKnHOhUuZkw6fwYi2Xmjco"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

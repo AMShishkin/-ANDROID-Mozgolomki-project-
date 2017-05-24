@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android                 ="http://schemas.android.com/apk/res/android"
+    xmlns:tools                   ="http://schemas.android.com/tools"
+    android:layout_height         ="match_parent"
+    android:background            ="@color/colorActivityBackground"
+    android:layout_width          ="match_parent"
+    android:largeHeap             ="true"
+    android:orientation           ="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/settings_title"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-1000dp"
+            android:layout_marginRight="-1000dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/view_basic"
+            android:text="@string/activity_settings_title"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/settings_switch_tolast"
+            android:gravity="center_vertical"
+            style="@style/SwitchCompatStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/settings_switch_margin_left_right"
+            android:layout_marginRight="@dimen/settings_switch_margin_left_right"
+            android:layout_weight="1"
+            android:text="@string/activity_settings_switch_to_last"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="@dimen/settings_switch_text_size"
+            tools:ignore="NestedWeights" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/settings_switch_toup"
+            android:gravity="center_vertical"
+            style="@style/SwitchCompatStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/settings_switch_margin_left_right"
+            android:layout_marginRight="@dimen/settings_switch_margin_left_right"
+            android:layout_weight="1"
+            android:text="@string/activity_settings_switch_sorting"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="@dimen/settings_switch_text_size"/>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/settings_switch_text_align"
+            android:gravity="center_vertical"
+            style="@style/SwitchCompatStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/settings_switch_margin_left_right"
+            android:layout_marginRight="@dimen/settings_switch_margin_left_right"
+            android:layout_weight="1"
+            android:text="@string/activity_settings_switch_text_align"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="@dimen/settings_switch_text_size"/>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/settings_switch_text_size"
+            android:gravity="center_vertical"
+            style="@style/SwitchCompatStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/settings_switch_margin_left_right"
+            android:layout_marginRight="@dimen/settings_switch_margin_left_right"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:textStyle="italic"
+            android:text="@string/activity_settings_switch_text_size"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="@dimen/settings_switch_text_size"/>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/settings_switch_night_theme"
+            style="@style/SwitchCompatStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/settings_switch_margin_left_right"
+            android:layout_marginRight="@dimen/settings_switch_margin_left_right"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:text="@string/activity_settings_switch_night_theme"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="@dimen/settings_switch_text_size"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-4dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginRight="-2dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/settings_button_reset"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/view_button"
+            android:text="@string/activity_settings_button_reset_settings"
+            android:textColor="#000"
+            android:textSize="@dimen/action_bar_buttons_text_size"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+

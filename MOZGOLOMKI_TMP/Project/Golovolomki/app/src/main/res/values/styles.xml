@@ -1,0 +1,70 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@null</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorBase</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="SwitchCompatStyle" >
+        <item name="android:windowBackground">@null</item>
+        <item name="thumbTint">@color/colorTrackTint</item>
+        <item name="trackTint">@color/colorBase</item>
+    </style>
+
+
+
+
+
+
+    <style name="AlertTheme" parent="Base.Theme.AppCompat">
+        <item name="android:windowBackground">@null</item>
+        <item name="alertStyle">@style/AlertStyle</item>
+    </style>
+
+    <!--Alerter-->
+    <style name="AlertStyle" parent="@android:style/Widget">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/alerter_alert_min_height</item>
+        <item name="android:maxHeight">@dimen/alerter_alert_max_height</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">top</item>
+        <item name="android:paddingTop">@dimen/alerter_alert_padding</item>
+        <item name="android:paddingBottom">@dimen/alerter_alert_padding</item>
+    </style>
+
+    <style name="AlertStyle.TextAppearance">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/alerter_text_small</item>
+    </style>
+
+    <style name="AlertStyle.TextAppearance.Title">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:textSize">@dimen/alerter_text_medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+
+</resources>

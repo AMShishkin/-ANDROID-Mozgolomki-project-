@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorActivityBackground">#EFDFC5</color>
+    <color name="colorDarkActivityBackground">#EADBC2</color>
+    <color name="colorTrackTint">#D1CFBC</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBase">#000000</color>
+
+
+    <color name="disable_forground_gray">#E0DEC9</color>
+    <color name="disable_thumb_gray">#E5E3CC</color>
+    <color name="enable_thumb_gray">#E5E3CC</color>
+
+    <color name="alertAdd">#2E7D32</color>
+    <color name="alertRemove">#C62828</color>
+
+</resources>
