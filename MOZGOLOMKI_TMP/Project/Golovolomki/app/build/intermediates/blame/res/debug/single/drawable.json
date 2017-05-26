@@ -12,6 +12,10 @@
         "source": "C:\\Users\\User\\.android\\build-cache\\afb963bcd4bac635a866d5bdf633968726f58077\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img16.png",
+        "source": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\drawable\\img16.png"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "C:\\Users\\User\\.android\\build-cache\\afb963bcd4bac635a866d5bdf633968726f58077\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
@@ -28,12 +32,12 @@
         "source": "C:\\Users\\User\\.android\\build-cache\\3ab8de4694f9d074c62681f7f84aab5e6d0f369a\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\afb963bcd4bac635a866d5bdf633968726f58077\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_selected.xml",
         "source": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\drawable\\view_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\User\\.android\\build-cache\\afb963bcd4bac635a866d5bdf633968726f58077\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
@@ -42,6 +46,10 @@
     {
         "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "C:\\Users\\User\\.android\\build-cache\\afb963bcd4bac635a866d5bdf633968726f58077\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img15.png",
+        "source": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\drawable\\img15.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\splash_screen.xml",
@@ -66,6 +74,10 @@
     {
         "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
         "source": "C:\\Users\\User\\.android\\build-cache\\afb963bcd4bac635a866d5bdf633968726f58077\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img17.png",
+        "source": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\drawable\\img17.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",

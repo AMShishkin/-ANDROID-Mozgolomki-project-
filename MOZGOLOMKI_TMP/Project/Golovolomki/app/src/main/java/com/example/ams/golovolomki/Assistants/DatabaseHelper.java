@@ -108,6 +108,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         listImages.add(R.drawable.img0); listImages.add(R.drawable.img1); listImages.add(R.drawable.img2); listImages.add(R.drawable.img3); listImages.add(R.drawable.img4);
         listImages.add(R.drawable.img5); listImages.add(R.drawable.img6); listImages.add(R.drawable.img7); listImages.add(R.drawable.img8); listImages.add(R.drawable.img9);
         listImages.add(R.drawable.img10); listImages.add(R.drawable.img11); listImages.add(R.drawable.img12); listImages.add(R.drawable.img13); listImages.add(R.drawable.img14);
+        listImages.add(R.drawable.img15); listImages.add(R.drawable.img16); listImages.add(R.drawable.img17);
     }
 
     public void InitializationSettingsTable(SQLiteDatabase db) {

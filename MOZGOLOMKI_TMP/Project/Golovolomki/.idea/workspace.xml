@@ -116,9 +116,22 @@
       <file leaf-file-name="DatabaseHelper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Assistants/DatabaseHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="190" column="8" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="375">
+              <caret line="110" column="107" selection-start-line="110" selection-start-column="107" selection-end-line="110" selection-end-column="107" />
+              <folding>
+                <element signature="method#DatabaseHelper#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#InitializationSettingsTable#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#InitializationFavoriteTable#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#InsertDateIntoPuzzleTable#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#UpdateSettingsState#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#UpdateSettingsRate#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#UpdateSettingsToNextRate#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#UpdateSettingsAppStart#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#UpdateSettingsToUp#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#UpdateSettingsDoubleClick#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#UpdateSettingsMoveToLast#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#UpdateSettingsTextAlign#0;class#DatabaseHelper#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2193,6 +2206,46 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Golovolomki" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golovolomki" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Golovolomki" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golovolomki" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assistants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -2549,7 +2602,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2565,7 +2618,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15511727" sideWeight="0.48184818" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15511727" sideWeight="0.48184818" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2980,9 +3033,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Assistants/DatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="190" column="8" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="375">
+          <caret line="110" column="107" selection-start-line="110" selection-start-column="107" selection-end-line="110" selection-end-column="107" />
+          <folding>
+            <element signature="method#DatabaseHelper#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#InitializationSettingsTable#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#InitializationFavoriteTable#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#InsertDateIntoPuzzleTable#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#UpdateSettingsState#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#UpdateSettingsRate#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#UpdateSettingsToNextRate#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#UpdateSettingsAppStart#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#UpdateSettingsToUp#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#UpdateSettingsDoubleClick#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#UpdateSettingsMoveToLast#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#UpdateSettingsTextAlign#0;class#DatabaseHelper#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
