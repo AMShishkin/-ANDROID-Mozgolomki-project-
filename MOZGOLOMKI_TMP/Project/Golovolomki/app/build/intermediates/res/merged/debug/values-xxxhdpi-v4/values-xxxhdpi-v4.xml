@@ -28,5 +28,5 @@
     <dimen name="puzzle_layout_margin_left_right">4dp</dimen>
     <dimen name="settings_switch_margin_left_right">15dp</dimen>
     <dimen name="settings_switch_text_size">15sp</dimen>
-    <dimen name="title_text_size">175sp</dimen>
+    <dimen name="title_text_size">75sp</dimen>
 </resources>
