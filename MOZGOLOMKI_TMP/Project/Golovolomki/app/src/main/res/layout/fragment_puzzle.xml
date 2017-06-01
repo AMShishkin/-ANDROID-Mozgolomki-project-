@@ -79,8 +79,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:layout_marginRight="5dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"
                     android:adjustViewBounds="true"
                     android:scaleType="fitXY"
                     app:srcCompat="@drawable/scrollbar"
@@ -88,7 +88,7 @@
 
                 <Space
                     android:layout_width="match_parent"
-                    android:layout_height="5dp"
+                    android:layout_height="2dp"
                     android:layout_weight="1" />
 
                 <com.google.android.gms.ads.AdView

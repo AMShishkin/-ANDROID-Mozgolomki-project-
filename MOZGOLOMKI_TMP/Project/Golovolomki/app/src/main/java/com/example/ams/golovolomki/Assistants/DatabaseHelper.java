@@ -54,7 +54,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String  DATABASE_NAME       = "Puzzle.db";
 
     @SuppressWarnings("!!! D.B. VERSION !!!")
-    public static final int      SCHEMA              = 3;
+    public static final int      SCHEMA              = 4;
 
 
     public static final String   TABLE_NAME_PUZZLE   = "PuzzleTable",
@@ -108,7 +108,10 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         listImages.add(R.drawable.img0); listImages.add(R.drawable.img1); listImages.add(R.drawable.img2); listImages.add(R.drawable.img3); listImages.add(R.drawable.img4);
         listImages.add(R.drawable.img5); listImages.add(R.drawable.img6); listImages.add(R.drawable.img7); listImages.add(R.drawable.img8); listImages.add(R.drawable.img9);
         listImages.add(R.drawable.img10); listImages.add(R.drawable.img11); listImages.add(R.drawable.img12); listImages.add(R.drawable.img13); listImages.add(R.drawable.img14);
-        listImages.add(R.drawable.img15); listImages.add(R.drawable.img16); listImages.add(R.drawable.img17);
+        listImages.add(R.drawable.img15); listImages.add(R.drawable.img16); listImages.add(R.drawable.img17); listImages.add(R.drawable.img18); listImages.add(R.drawable.img19);
+        listImages.add(R.drawable.img20); listImages.add(R.drawable.img21); listImages.add(R.drawable.img22); listImages.add(R.drawable.img23); listImages.add(R.drawable.img24);
+        listImages.add(R.drawable.img25); listImages.add(R.drawable.img26); listImages.add(R.drawable.img27); listImages.add(R.drawable.img28); listImages.add(R.drawable.img29);
+        listImages.add(R.drawable.img30);
     }
 
     public void InitializationSettingsTable(SQLiteDatabase db) {
