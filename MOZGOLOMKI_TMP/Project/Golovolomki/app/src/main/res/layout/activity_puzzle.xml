@@ -10,31 +10,8 @@
     android:background          ="@color/colorActivityBackground">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_weight="0">
-
-        <TextView
-            android:id="@+id/puzzle_title_label"
-            android:gravity="center_vertical"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="-1000dp"
-            android:layout_marginRight="-1000dp"
-            android:layout_marginTop="@dimen/decorative_line_top_margin_top"
-            android:layout_weight="1"
-            android:text="|||||||||||||||||||||||||||"
-            android:textAlignment="center"
-            android:textColor="#000"
-            android:textSize="@dimen/decorative_line_top_text_size"
-            tools:ignore="HardcodedText,NestedWeights" />
-    </LinearLayout>
-
-    <LinearLayout
         android:orientation     ="vertical"
         android:layout_weight   ="1"
-        android:layout_marginTop="-20dp"
         android:layout_width    ="match_parent"
         android:layout_height   ="match_parent">
 

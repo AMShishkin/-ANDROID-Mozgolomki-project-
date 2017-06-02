@@ -95,8 +95,6 @@ public class PuzzleActivity extends AppCompatActivity {
     }
 
     private void InitializeFonts() {
-        // text views
-        ((TextView)findViewById(R.id.puzzle_title_label)).setTypeface(Typefaces.get(getBaseContext(), "fonts/mainFont.ttf"));
         // buttons
         ((Button)findViewById(R.id.button_puzzle_answer)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
         ((Button)findViewById(R.id.button_puzzle_advice)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));

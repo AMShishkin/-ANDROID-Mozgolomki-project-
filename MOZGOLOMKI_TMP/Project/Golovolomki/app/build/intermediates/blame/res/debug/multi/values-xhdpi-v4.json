@@ -89,11 +89,11 @@
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
                     "position": {
-                        "startLine": 58,
+                        "startLine": 55,
                         "startColumn": 4,
-                        "startOffset": 3057,
+                        "startOffset": 2901,
                         "endColumn": 55,
-                        "endOffset": 3108
+                        "endOffset": 2952
                     }
                 }
             },
@@ -108,11 +108,11 @@
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
                     "position": {
-                        "startLine": 57,
+                        "startLine": 54,
                         "startColumn": 4,
-                        "startOffset": 3000,
+                        "startOffset": 2844,
                         "endColumn": 55,
-                        "endOffset": 3051
+                        "endOffset": 2895
                     }
                 }
             },
@@ -127,11 +127,11 @@
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
                     "position": {
-                        "startLine": 55,
+                        "startLine": 52,
                         "startColumn": 4,
-                        "startOffset": 2927,
+                        "startOffset": 2771,
                         "endColumn": 52,
-                        "endOffset": 2975
+                        "endOffset": 2819
                     }
                 }
             },
@@ -146,11 +146,11 @@
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
                     "position": {
-                        "startLine": 54,
+                        "startLine": 51,
                         "startColumn": 4,
-                        "startOffset": 2871,
+                        "startOffset": 2715,
                         "endColumn": 54,
-                        "endOffset": 2921
+                        "endOffset": 2765
                     }
                 }
             },
@@ -165,11 +165,11 @@
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
                     "position": {
-                        "startLine": 53,
+                        "startLine": 50,
                         "startColumn": 4,
-                        "startOffset": 2818,
+                        "startOffset": 2662,
                         "endColumn": 51,
-                        "endOffset": 2865
+                        "endOffset": 2709
                     }
                 }
             },
@@ -184,11 +184,11 @@
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
                     "position": {
-                        "startLine": 61,
+                        "startLine": 58,
                         "startColumn": 4,
-                        "startOffset": 3188,
+                        "startOffset": 3032,
                         "endColumn": 50,
-                        "endOffset": 3234
+                        "endOffset": 3078
                     }
                 }
             },
@@ -203,11 +203,11 @@
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
                     "position": {
-                        "startLine": 60,
+                        "startLine": 57,
                         "startColumn": 4,
-                        "startOffset": 3137,
+                        "startOffset": 2981,
                         "endColumn": 49,
-                        "endOffset": 3182
+                        "endOffset": 3026
                     }
                 }
             },
@@ -222,11 +222,11 @@
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
                     "position": {
-                        "startLine": 67,
+                        "startLine": 64,
                         "startColumn": 4,
-                        "startOffset": 3500,
+                        "startOffset": 3344,
                         "endColumn": 57,
-                        "endOffset": 3553
+                        "endOffset": 3397
                     }
                 }
             },
@@ -235,46 +235,8 @@
                     "startLine": 14,
                     "startColumn": 4,
                     "startOffset": 738,
-                    "endColumn": 62,
-                    "endOffset": 796
-                },
-                "from": {
-                    "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
-                    "position": {
-                        "startLine": 37,
-                        "startColumn": 4,
-                        "startOffset": 1960,
-                        "endColumn": 62,
-                        "endOffset": 2018
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 801,
-                    "endColumn": 60,
-                    "endOffset": 857
-                },
-                "from": {
-                    "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
-                    "position": {
-                        "startLine": 38,
-                        "startColumn": 4,
-                        "startOffset": 2024,
-                        "endColumn": 60,
-                        "endOffset": 2080
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 862,
                     "endColumn": 56,
-                    "endOffset": 914
+                    "endOffset": 790
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
@@ -289,11 +251,11 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 919,
+                    "startOffset": 795,
                     "endColumn": 67,
-                    "endOffset": 982
+                    "endOffset": 858
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
@@ -308,11 +270,11 @@
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 987,
+                    "startOffset": 863,
                     "endColumn": 64,
-                    "endOffset": 1047
+                    "endOffset": 923
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
@@ -327,11 +289,11 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1052,
+                    "startOffset": 928,
                     "endColumn": 72,
-                    "endOffset": 1120
+                    "endOffset": 996
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
@@ -346,11 +308,11 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1125,
+                    "startOffset": 1001,
                     "endColumn": 68,
-                    "endOffset": 1189
+                    "endOffset": 1065
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
@@ -365,11 +327,11 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1194,
+                    "startOffset": 1070,
                     "endColumn": 63,
-                    "endOffset": 1253
+                    "endOffset": 1129
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
@@ -384,11 +346,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1258,
+                    "startOffset": 1134,
                     "endColumn": 62,
-                    "endOffset": 1316
+                    "endOffset": 1192
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
@@ -403,20 +365,58 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1321,
+                    "startOffset": 1197,
                     "endColumn": 67,
-                    "endOffset": 1384
+                    "endOffset": 1260
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
                     "position": {
-                        "startLine": 45,
+                        "startLine": 42,
                         "startColumn": 4,
-                        "startOffset": 2396,
+                        "startOffset": 2240,
                         "endColumn": 67,
-                        "endOffset": 2459
+                        "endOffset": 2303
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1265,
+                    "endColumn": 65,
+                    "endOffset": 1326
+                },
+                "from": {
+                    "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1969,
+                        "endColumn": 65,
+                        "endOffset": 2030
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1331,
+                    "endColumn": 61,
+                    "endOffset": 1388
+                },
+                "from": {
+                    "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2349,
+                        "endColumn": 61,
+                        "endOffset": 2406
                     }
                 }
             },
@@ -424,18 +424,18 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1389,
-                    "endColumn": 65,
-                    "endOffset": 1450
+                    "startOffset": 1393,
+                    "endColumn": 62,
+                    "endOffset": 1451
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
-                        "startOffset": 2125,
-                        "endColumn": 65,
-                        "endOffset": 2186
+                        "startOffset": 2135,
+                        "endColumn": 62,
+                        "endOffset": 2193
                     }
                 }
             },
@@ -443,18 +443,18 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1455,
+                    "startOffset": 1456,
                     "endColumn": 61,
-                    "endOffset": 1512
+                    "endOffset": 1513
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
                     "position": {
-                        "startLine": 47,
+                        "startLine": 38,
                         "startColumn": 4,
-                        "startOffset": 2505,
+                        "startOffset": 2036,
                         "endColumn": 61,
-                        "endOffset": 2562
+                        "endOffset": 2093
                     }
                 }
             },
@@ -462,47 +462,9 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1517,
-                    "endColumn": 62,
-                    "endOffset": 1575
-                },
-                "from": {
-                    "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
-                    "position": {
-                        "startLine": 43,
-                        "startColumn": 4,
-                        "startOffset": 2291,
-                        "endColumn": 62,
-                        "endOffset": 2349
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 27,
-                    "startColumn": 4,
-                    "startOffset": 1580,
-                    "endColumn": 61,
-                    "endOffset": 1637
-                },
-                "from": {
-                    "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
-                    "position": {
-                        "startLine": 41,
-                        "startColumn": 4,
-                        "startOffset": 2192,
-                        "endColumn": 61,
-                        "endOffset": 2249
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 28,
-                    "startColumn": 4,
-                    "startOffset": 1642,
+                    "startOffset": 1518,
                     "endColumn": 64,
-                    "endOffset": 1702
+                    "endOffset": 1578
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
@@ -517,11 +479,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 1707,
+                    "startOffset": 1583,
                     "endColumn": 56,
-                    "endOffset": 1759
+                    "endOffset": 1635
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
@@ -536,11 +498,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 1764,
+                    "startOffset": 1640,
                     "endColumn": 46,
-                    "endOffset": 1806
+                    "endOffset": 1682
                 },
                 "from": {
                     "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values-xhdpi\\dimens.xml",
