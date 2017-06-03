@@ -40,7 +40,7 @@
     <!-- puzzle fragment title -->
     <dimen name="puzzle_fragment_title_text_size">60sp</dimen>
     <!-- puzzle fragment complexity -->
-    <dimen name="puzzle_fragment_complexity_text_size">10sp</dimen>
+    <dimen name="puzzle_fragment_complexity_state_text_size">11sp</dimen>
     <!-- puzzle fragment main text -->
     <dimen name="puzzle_fragment_main_text_size">17sp</dimen>
 <!-- ******************************************************************************************* -->

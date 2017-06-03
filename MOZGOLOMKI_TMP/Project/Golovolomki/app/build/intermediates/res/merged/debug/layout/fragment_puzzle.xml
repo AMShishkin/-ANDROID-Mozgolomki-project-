@@ -72,12 +72,14 @@
                         android:id="@+id/puzzle_state"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
                         android:layout_weight="1"
                         android:fontFamily="serif"
-                        android:gravity="center"
+                        android:gravity="left"
                         android:text="ПРОЧИТАНО"
                         android:textColor="#000000"
-                        android:textSize="@dimen/puzzle_fragment_favorite_text_size"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/puzzle_fragment_complexity_state_text_size"
                         tools:ignore="RtlHardcoded" />
 
                     <TextView
@@ -89,6 +91,7 @@
                         android:gravity="center"
                         android:text="@string/activity_puzzle_fragment_favorite"
                         android:textColor="#000000"
+                        android:textStyle="bold"
                         android:textSize="@dimen/puzzle_fragment_favorite_text_size"
                         tools:ignore="RtlHardcoded" />
 
@@ -96,14 +99,14 @@
                         android:id="@+id/puzzle_complexity"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="5dp"
+                        android:layout_marginRight="7dp"
                         android:layout_weight="1"
                         android:fontFamily="serif"
                         android:gravity="end"
                         android:text="@string/activity_puzzle_fragment_complexity"
                         android:textAllCaps="false"
                         android:textColor="#000000"
-                        android:textSize="@dimen/puzzle_fragment_complexity_text_size"
+                        android:textSize="@dimen/puzzle_fragment_complexity_state_text_size"
                         android:textStyle="bold"
                         tools:ignore="RtlHardcoded" />
                 </LinearLayout>
@@ -111,7 +114,20 @@
 
                 <Space
                     android:layout_width="match_parent"
-                    android:layout_height="10dp"
+                    android:layout_height="4dp"
+                    android:layout_weight="1" />
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    ads:adSize="SMART_BANNER"
+                    ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"
                     android:layout_weight="1" />
 
                 <TextView
@@ -126,19 +142,6 @@
                     android:text="@string/activity_puzzle_fragment_description"
                     android:textColor="#000000"
                     android:textSize="@dimen/puzzle_fragment_main_text_size"/>
-
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp"
-                    android:layout_weight="1" />
-
-                <com.google.android.gms.ads.AdView
-                    android:id="@+id/adView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    ads:adSize="SMART_BANNER"
-                    ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
 
                 <Space
                     android:layout_width="match_parent"

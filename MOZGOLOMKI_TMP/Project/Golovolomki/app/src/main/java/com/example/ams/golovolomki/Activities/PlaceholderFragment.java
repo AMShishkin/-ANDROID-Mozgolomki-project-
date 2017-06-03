@@ -23,7 +23,7 @@ import com.squareup.picasso.Picasso;
 public class PlaceholderFragment extends Fragment {
     private static final String ARG_SECTION_NUMBER = "section_number";
     private View rootView;
-    private TextView textViewSection, textViewFragmentPuzzle, textViewComplexity;
+    private TextView textViewSection, textViewFragmentPuzzle, textViewComplexity, textViewState;
     private AdSize adSize = AdSize.SMART_BANNER;
 
     @Override
@@ -70,20 +70,24 @@ public class PlaceholderFragment extends Fragment {
         textViewSection.setText(DatabaseHelper.valueCursor.getString(1));
         textViewSection.setTypeface(Typefaces.get(inflater.getContext(), "fonts/title_puzzle.ttf"));
 
-
         // text view fragment puzzle <- main puzzle text
         if (textViewFragmentPuzzle == null) textViewFragmentPuzzle = (TextView)rootView.findViewById(R.id.textViewFragmentPuzzle);
         rootView.findViewById(R.id.textViewFragmentPuzzle).setTextAlignment(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? View.TEXT_ALIGNMENT_CENTER : View.TEXT_ALIGNMENT_VIEW_START);
         textViewFragmentPuzzle.setText(DatabaseHelper.valueCursor.getString(3));
         textViewFragmentPuzzle.setTypeface(Typefaces.get(inflater.getContext(), "fonts/cavia_puzzle.ttf"));
 
-
-
         // text complexity
         if (textViewComplexity == null) textViewComplexity = (TextView)rootView.findViewById(R.id.puzzle_complexity);
         textViewComplexity.setTypeface(Typefaces.get(inflater.getContext(), "fonts/cavia_puzzle.ttf"));
         textViewComplexity.setTypeface(textViewComplexity.getTypeface(), Typeface.BOLD);
         textViewComplexity.setText(DatabaseHelper.valueCursor.getString(6));
+
+        // text state
+        if (textViewState == null) textViewState = (TextView)rootView.findViewById(R.id.puzzle_state);
+        textViewState.setTypeface(Typefaces.get(inflater.getContext(), "fonts/cavia_puzzle.ttf"));
+        textViewState.setTypeface(textViewState.getTypeface(), Typeface.BOLD);
+        if (DatabaseHelper.favoriteCursor.getString(2).equals("")) textViewState.setText("ЕЩЕ НЕ ПРОЧИТАНО");
+        else textViewState.setText(DatabaseHelper.favoriteCursor.getString(2));
 
 
         // text favorite
