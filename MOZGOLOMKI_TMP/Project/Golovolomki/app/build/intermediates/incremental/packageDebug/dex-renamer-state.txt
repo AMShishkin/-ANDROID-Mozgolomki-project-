@@ -1,4 +1,4 @@
-#Sat Jun 03 15:52:49 MSK 2017
+#Sun Jun 04 19:54:38 MSK 2017
 base.0=C\:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\transforms\\jack\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\transforms\\jack\\debug\\folders\\1000\\1f\\main\\classes.dex
