@@ -40,8 +40,8 @@ SHA-2FE66C436E45EF600D47B6DD94404BC4171C5116:prebuilt/android/support/v7/recycle
 SHA-CD7ECE9131A1166EBC28C6689B2C1FDD3C7779C0:prebuilt/android/support/v7/recyclerview/R$id.dex
 SHA-C45A55A319BBBC92F69FBB31E7C5D8CC23077375:prebuilt/android/support/v7/recyclerview/R$styleable.dex
 SHA-CBA0FCDA3A188D4F8F918C8FB26D356080D15B7D:prebuilt/android/support/v7/recyclerview/R.dex
-SHA-93A8FC220A09665CC674B72CF38219655DCA9666:prebuilt/com/example/ams/golovolomki/Activities/AboutActivity$1.dex
-SHA-D7D20B75CC385B3CF8F2653798D7E2979FE34ABA:prebuilt/com/example/ams/golovolomki/Activities/AboutActivity.dex
+SHA-1670C879424410BC654B5698501ED7B2EB5E09BA:prebuilt/com/example/ams/golovolomki/Activities/AboutActivity$1.dex
+SHA-10648EDBDE6D65117EFB3A1C664D74097705C59A:prebuilt/com/example/ams/golovolomki/Activities/AboutActivity.dex
 SHA-98E681BE98EEDBD8075191AC1B901D4F7786D96F:prebuilt/com/example/ams/golovolomki/Activities/AnswerActivity$1.dex
 SHA-3236CACA1A7159AB946E5C8D1FBD8871498BCDD8:prebuilt/com/example/ams/golovolomki/Activities/AnswerActivity.dex
 SHA-6D26442ED1D1528593D6F61BEAD7C8CAE28AC23D:prebuilt/com/example/ams/golovolomki/Activities/MainActivity$1.dex
@@ -133,4 +133,4 @@ SHA-208AF1DED8E212D50D6B8AD31600004C4ADD0DD2:prebuilt/es/dmoral/toasty/R$string.
 SHA-EB0EBAF87E30AAFF5D271DFC1F4C9BAD0095CA57:prebuilt/es/dmoral/toasty/R$style.dex
 SHA-3516C00A94332CB04D89266E470A76AA11200B45:prebuilt/es/dmoral/toasty/R$styleable.dex
 SHA-2B938E20E9018CB86E64F99A011F040D94A4817D:prebuilt/es/dmoral/toasty/R.dex
-SHA-FDA548FBBA5BC23B47C2C46542F9E127C145A6D1:digest
+SHA-E99A389F28ACA6959B30C7CA6075C16E9F323299:digest

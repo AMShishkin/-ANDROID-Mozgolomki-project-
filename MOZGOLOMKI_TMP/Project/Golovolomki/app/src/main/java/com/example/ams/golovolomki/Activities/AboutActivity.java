@@ -18,16 +18,9 @@ public class AboutActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        getWindow().setBackgroundDrawable(null);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_about);
-    }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-
-        InitializeFonts();
         InitializeInterface();
         InitializeMenuButtons();
     }
@@ -38,12 +31,6 @@ public class AboutActivity extends Activity {
     }
 
     private void InitializeMenuButtons() {
-        Button _buttonRate, _buttonApp, _buttonEmail;
-
-        _buttonRate = (Button)findViewById(R.id.about_button_rate);
-        _buttonApp = (Button)findViewById(R.id.about_button_app);
-        _buttonEmail = (Button)findViewById(R.id.about_button_email);
-
         View.OnClickListener _oclBtn = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -56,10 +43,12 @@ public class AboutActivity extends Activity {
                     case R.id.about_button_app:
                         try {
                             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + getPackageName())));
-                        } catch (android.content.ActivityNotFoundException anfe) {
+                        }
+                        catch (android.content.ActivityNotFoundException anfe) {
                             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + getPackageName())));
                         }
                         break;
+
                     case R.id.about_button_email:
                         Intent _emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "AMShishkin.vrn@gmail.com", null));
                         _emailIntent.putExtra(Intent.EXTRA_SUBJECT, "[МОЗГОЛОМКИ]");
@@ -69,24 +58,25 @@ public class AboutActivity extends Activity {
             }
         };
 
-        _buttonRate.setOnClickListener(_oclBtn);
-        _buttonApp.setOnClickListener(_oclBtn);
-        _buttonEmail.setOnClickListener(_oclBtn);
+        findViewById(R.id.about_button_rate).setOnClickListener(_oclBtn);
+        findViewById(R.id.about_button_app).setOnClickListener(_oclBtn);
+        findViewById(R.id.about_button_email).setOnClickListener(_oclBtn);
     }
 
     private void InitializeFonts() {
-        // text views
         ((TextView) findViewById(R.id.about_title)).setTypeface(Typefaces.get(getBaseContext(), "fonts/mainFont.ttf"));
         ((TextView) findViewById(R.id.about_main_text_top)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
         ((TextView) findViewById(R.id.about_main_text_middle)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
         ((TextView) findViewById(R.id.about_main_text_copyright)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
-        // buttons
+
         ((Button) findViewById(R.id.about_button_email)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
         ((Button) findViewById(R.id.about_button_app)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
         ((Button) findViewById(R.id.about_button_rate)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
     }
 
     private void InitializeInterface() {
+        InitializeFonts();
+
         findViewById(R.id.about_main_text_top).setTextAlignment(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? View.TEXT_ALIGNMENT_CENTER : View.TEXT_ALIGNMENT_VIEW_START);
         findViewById(R.id.about_main_text_middle).setTextAlignment(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? View.TEXT_ALIGNMENT_CENTER : View.TEXT_ALIGNMENT_VIEW_START);
     }
