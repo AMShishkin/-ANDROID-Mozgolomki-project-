@@ -24,8 +24,8 @@ f:prebuilt/com/example/ams/golovolomki/Activities/PuzzleActivity$1.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/PuzzleActivity.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/SettingsActivity$2.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/AboutActivity$1.dex
-f:prebuilt/com/example/ams/golovolomki/Activities/AnswerActivity$1.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/PlaceholderFragment.dex
+f:prebuilt/com/example/ams/golovolomki/Activities/AnswerActivity$1.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/MainActivity$2.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/SplashScreenActivity.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/SectionsPagerAdapter.dex
@@ -155,9 +155,9 @@ f:jayce/com/example/ams/golovolomki/Activities/MainActivity$2.jayce
 f:jayce/com/example/ams/golovolomki/Activities/SettingsActivity$2.jayce
 f:jayce/com/example/ams/golovolomki/Activities/PuzzleActivity$1.jayce
 f:jayce/com/example/ams/golovolomki/Activities/MainActivity.jayce
-f:jayce/com/example/ams/golovolomki/Activities/PuzzleActivity.jayce
 f:jayce/com/example/ams/golovolomki/Activities/SectionsPagerAdapter.jayce
 f:jayce/com/example/ams/golovolomki/Activities/SettingsActivity$1.jayce
+f:jayce/com/example/ams/golovolomki/Activities/PuzzleActivity.jayce
 f:jayce/com/example/ams/golovolomki/Activities/MainActivity$1.jayce
 f:jayce/com/example/ams/golovolomki/Activities/SettingsActivity$1$1.jayce
 f:jayce/com/example/ams/golovolomki/Activities/AboutActivity.jayce
