@@ -22,10 +22,10 @@ f:prebuilt/com/example/ams/golovolomki/Activities/Typefaces.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/MainActivity.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/PuzzleActivity$1.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/PuzzleActivity.dex
-f:prebuilt/com/example/ams/golovolomki/Activities/SettingsActivity$2.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/AboutActivity$1.dex
-f:prebuilt/com/example/ams/golovolomki/Activities/PlaceholderFragment.dex
+f:prebuilt/com/example/ams/golovolomki/Activities/SettingsActivity$2.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/AnswerActivity$1.dex
+f:prebuilt/com/example/ams/golovolomki/Activities/PlaceholderFragment.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/MainActivity$2.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/SplashScreenActivity.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/SectionsPagerAdapter.dex
@@ -57,8 +57,8 @@ f:prebuilt/com/example/ams/golovolomki/R$style.dex
 f:prebuilt/com/example/ams/golovolomki/R$string.dex
 f:prebuilt/com/example/ams/golovolomki/R$animator.dex
 f:prebuilt/com/example/ams/golovolomki/R$dimen.dex
-f:prebuilt/com/example/ams/golovolomki/Alert/Alert.dex
 f:prebuilt/com/example/ams/golovolomki/Alert/Alerter$1.dex
+f:prebuilt/com/example/ams/golovolomki/Alert/Alert.dex
 f:prebuilt/com/example/ams/golovolomki/Alert/Alert$2.dex
 f:prebuilt/com/example/ams/golovolomki/Alert/Alerter$2.dex
 f:prebuilt/com/example/ams/golovolomki/Alert/Alert$3.dex
@@ -155,9 +155,9 @@ f:jayce/com/example/ams/golovolomki/Activities/MainActivity$2.jayce
 f:jayce/com/example/ams/golovolomki/Activities/SettingsActivity$2.jayce
 f:jayce/com/example/ams/golovolomki/Activities/PuzzleActivity$1.jayce
 f:jayce/com/example/ams/golovolomki/Activities/MainActivity.jayce
+f:jayce/com/example/ams/golovolomki/Activities/PuzzleActivity.jayce
 f:jayce/com/example/ams/golovolomki/Activities/SectionsPagerAdapter.jayce
 f:jayce/com/example/ams/golovolomki/Activities/SettingsActivity$1.jayce
-f:jayce/com/example/ams/golovolomki/Activities/PuzzleActivity.jayce
 f:jayce/com/example/ams/golovolomki/Activities/MainActivity$1.jayce
 f:jayce/com/example/ams/golovolomki/Activities/SettingsActivity$1$1.jayce
 f:jayce/com/example/ams/golovolomki/Activities/AboutActivity.jayce
@@ -177,8 +177,8 @@ f:jayce/com/example/ams/golovolomki/R$drawable.jayce
 f:jayce/com/example/ams/golovolomki/R$bool.jayce
 f:jayce/com/example/ams/golovolomki/apprater/AppRater$3.jayce
 f:jayce/com/example/ams/golovolomki/apprater/Market.jayce
-f:jayce/com/example/ams/golovolomki/apprater/AppRater$2.jayce
 f:jayce/com/example/ams/golovolomki/apprater/AppRater.jayce
+f:jayce/com/example/ams/golovolomki/apprater/AppRater$2.jayce
 f:jayce/com/example/ams/golovolomki/apprater/ApplicationRatingInfo.jayce
 f:jayce/com/example/ams/golovolomki/apprater/AmazonMarket.jayce
 f:jayce/com/example/ams/golovolomki/apprater/GoogleMarket.jayce
@@ -193,9 +193,9 @@ f:jayce/com/example/ams/golovolomki/MainActivityViewList/ViewListItem.jayce
 f:jayce/com/example/ams/golovolomki/Alert/Alerter$2.jayce
 f:jayce/com/example/ams/golovolomki/Alert/Alert$3.jayce
 f:jayce/com/example/ams/golovolomki/Alert/Alerter.jayce
-f:jayce/com/example/ams/golovolomki/Alert/Alert.jayce
 f:jayce/com/example/ams/golovolomki/Alert/Alert$1.jayce
 f:jayce/com/example/ams/golovolomki/Alert/Alerter$1.jayce
+f:jayce/com/example/ams/golovolomki/Alert/Alert.jayce
 f:jayce/com/example/ams/golovolomki/Alert/Alert$2.jayce
 f:jayce/com/example/ams/golovolomki/R$styleable.jayce
 f:jayce/android/support/v7/recyclerview/R$id.jayce

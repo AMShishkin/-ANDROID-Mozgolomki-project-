@@ -17,21 +17,13 @@ public class SplashScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_about);
-
-        // disable overdraws
-        getWindow().setBackgroundDrawable(null);
-        // set orientation
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-
         AppRater.app_launched(SplashScreenActivity.this);
-
         // initialize display metrics
         DisplayMetricsHelper.setDisplayMetrics(getWindowManager().getDefaultDisplay());
-
         // initialize db
         MainActivity.bdh = new DatabaseHelper(getApplicationContext());
         MainActivity.db = MainActivity.bdh.getReadableDatabase();
-
         // get db settings
         DatabaseHelper.settingsCursor = MainActivity.db.rawQuery("SELECT * FROM " + DatabaseHelper.TABLE_NAME_SETTINGS, null);
         DatabaseHelper.settingsCursor.moveToFirst();

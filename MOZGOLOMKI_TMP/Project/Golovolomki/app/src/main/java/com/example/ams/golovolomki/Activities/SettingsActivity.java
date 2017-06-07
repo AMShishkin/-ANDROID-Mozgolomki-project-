@@ -15,8 +15,6 @@ import com.example.ams.golovolomki.R;
 import es.dmoral.toasty.Toasty;
 
 public class SettingsActivity extends AppCompatActivity {
-    private android.support.v7.widget.SwitchCompat switchToUp, switchMoveToLast, switchTextAlign;
-    private final String TOAST_RESET = "НАСТРОЙКИ СБРОШЕНЫ";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,14 +23,15 @@ public class SettingsActivity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_settings);
         getWindow().setBackgroundDrawable(null);
+
+        InitializeFonts();
+        InitializeButtons();
     }
 
     @Override
     public void onResume() {
         super.onResume();
 
-        InitializeFonts();
-        InitializeButtons();
         InitializeSwitches();
     }
 
@@ -43,13 +42,12 @@ public class SettingsActivity extends AppCompatActivity {
     }
 
     private void InitializeFonts() {
-        /* text views */
         ((TextView)findViewById(R.id.settings_title)).setTypeface(Typefaces.get(getBaseContext(), "fonts/mainFont.ttf"));
-        /* switch */
+
         ((android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_toup)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
         ((android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_tolast)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
         ((android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_text_align)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
-        /* buttons */
+
         ((Button)findViewById(R.id.settings_button_reset)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
     }
 
@@ -75,7 +73,7 @@ public class SettingsActivity extends AppCompatActivity {
                         intent.putExtra("EXIT", true);
                         startActivity(intent);
 
-                        Toasty.info(getBaseContext(), TOAST_RESET, Toast.LENGTH_LONG, true).show();
+                        Toasty.info(getBaseContext(), "НАСТРОЙКИ СБРОШЕНЫ", Toast.LENGTH_LONG, true).show();
                     }
                 });
 
@@ -92,25 +90,31 @@ public class SettingsActivity extends AppCompatActivity {
     }
 
     private void InitializeSwitches() {
+        final android.support.v7.widget.SwitchCompat _switchToUp, _switchMoveToLast, _switchTextAlign;
+
+        _switchToUp = (android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_toup);
+        _switchMoveToLast = (android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_tolast);
+        _switchTextAlign = (android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_text_align);
+
         View.OnClickListener _onClkListener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 switch (v.getId()) {
                     case R.id.settings_switch_toup:
                         MainActivity.db = MainActivity.bdh.getReadableDatabase();
-                        MainActivity.bdh.UpdateSettingsToUp(MainActivity.db, 1, switchToUp.isChecked() ? true : false);
+                        MainActivity.bdh.UpdateSettingsToUp(MainActivity.db, 1, _switchToUp.isChecked());
                         MainActivity.db.close();
                         break;
 
                     case R.id.settings_switch_tolast:
                         MainActivity.db = MainActivity.bdh.getReadableDatabase();
-                        MainActivity.bdh.UpdateSettingsMoveToLast(MainActivity.db, 1, switchMoveToLast.isChecked() ? true : false);
+                        MainActivity.bdh.UpdateSettingsMoveToLast(MainActivity.db, 1, _switchMoveToLast.isChecked());
                         MainActivity.db.close();
                         break;
 
                     case R.id.settings_switch_text_align:
                         MainActivity.db = MainActivity.bdh.getReadableDatabase();
-                        MainActivity.bdh.UpdateSettingsTextAlign(MainActivity.db, 1, switchTextAlign.isChecked() ? true : false);
+                        MainActivity.bdh.UpdateSettingsTextAlign(MainActivity.db, 1, _switchTextAlign.isChecked());
                         MainActivity.db.close();
                         break;
                 }
@@ -118,18 +122,15 @@ public class SettingsActivity extends AppCompatActivity {
         };
 
         // switch list sort
-        switchToUp = (android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_toup);
-        switchToUp.setChecked(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(4)));
-        switchToUp.setOnClickListener(_onClkListener);
+        _switchToUp.setChecked(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(4)));
+        _switchToUp.setOnClickListener(_onClkListener);
 
         // switch move to last
-        switchMoveToLast = (android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_tolast);
-        switchMoveToLast.setChecked(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(6)));
-        switchMoveToLast.setOnClickListener(_onClkListener);
+        _switchMoveToLast.setChecked(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(6)));
+        _switchMoveToLast.setOnClickListener(_onClkListener);
 
         // switch text align
-        switchTextAlign = (android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_text_align);
-        switchTextAlign.setChecked(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)));
-        switchTextAlign.setOnClickListener(_onClkListener);
+        _switchTextAlign.setChecked(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)));
+        _switchTextAlign.setOnClickListener(_onClkListener);
     }
 }

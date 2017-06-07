@@ -52,13 +52,13 @@ SHA-6B1A0822C148AC6B999E008EA138DA0C74DE8D2C:prebuilt/com/example/ams/golovolomk
 SHA-8D36106611EB47A0C30562DB97E880B5B43C8FB9:prebuilt/com/example/ams/golovolomki/Activities/PuzzleActivity$1.dex
 SHA-C7E2400813EC7C12BB80C0B10EFD8E0A964FA5F2:prebuilt/com/example/ams/golovolomki/Activities/PuzzleActivity.dex
 SHA-82685EBBE7FFB1CE1F622E7120BA102C1CEEBD68:prebuilt/com/example/ams/golovolomki/Activities/SectionsPagerAdapter.dex
-SHA-B6CCE4B5233D251F84AD225616F232A2023682A8:prebuilt/com/example/ams/golovolomki/Activities/SettingsActivity$1$1.dex
-SHA-7B9B1587D9710D428041DD97DD8B0C222B95296F:prebuilt/com/example/ams/golovolomki/Activities/SettingsActivity$1$2.dex
-SHA-245CB6E9E05A6C5CA76D33AFDBB5A076245DE8E0:prebuilt/com/example/ams/golovolomki/Activities/SettingsActivity$1.dex
-SHA-86449CB2AD01E2C54C1E424C3462C28F25665B9C:prebuilt/com/example/ams/golovolomki/Activities/SettingsActivity$2.dex
-SHA-466CB9A18F33B658811B3A73521AC15F01C2E6CF:prebuilt/com/example/ams/golovolomki/Activities/SettingsActivity.dex
-SHA-D8BC96B486FE9B187682360427BB5E058155596C:prebuilt/com/example/ams/golovolomki/Activities/SplashScreenActivity.dex
-SHA-D364CC8B15C3BC021577714F01B19EBC47BBC1BE:prebuilt/com/example/ams/golovolomki/Activities/Typefaces.dex
+SHA-090F2C4A91195EB6153C43BCFB4C706C502F2361:prebuilt/com/example/ams/golovolomki/Activities/SettingsActivity$1$1.dex
+SHA-1BDCB186C16F4C901F78A9D41B8B6A14454C15FF:prebuilt/com/example/ams/golovolomki/Activities/SettingsActivity$1$2.dex
+SHA-C171082092DA95E103C84B32EFBB3B39E2A3E618:prebuilt/com/example/ams/golovolomki/Activities/SettingsActivity$1.dex
+SHA-B23FC3F1D96E745A4F3D002FB3E0C49F7C17F439:prebuilt/com/example/ams/golovolomki/Activities/SettingsActivity$2.dex
+SHA-88BADAC57A476E26671698BF882F4E133A88781E:prebuilt/com/example/ams/golovolomki/Activities/SettingsActivity.dex
+SHA-2492CCA80CE7AA8D37C3A0BE85616EBFDEC6AD3B:prebuilt/com/example/ams/golovolomki/Activities/SplashScreenActivity.dex
+SHA-B6663EC8AC042C9C87927CF5F5CF6A1223A3EC4D:prebuilt/com/example/ams/golovolomki/Activities/Typefaces.dex
 SHA-4EF2E36A25538EE48B1D250AA4F2C3AD4981B38B:prebuilt/com/example/ams/golovolomki/Alert/Alert$1.dex
 SHA-6194582B10E776FAAB088DB780D3B6B01D3D16B6:prebuilt/com/example/ams/golovolomki/Alert/Alert$2.dex
 SHA-3F11339C89BDD3C004F0FC7AB4CE998ED6D29803:prebuilt/com/example/ams/golovolomki/Alert/Alert$3.dex
@@ -133,4 +133,4 @@ SHA-208AF1DED8E212D50D6B8AD31600004C4ADD0DD2:prebuilt/es/dmoral/toasty/R$string.
 SHA-EB0EBAF87E30AAFF5D271DFC1F4C9BAD0095CA57:prebuilt/es/dmoral/toasty/R$style.dex
 SHA-3516C00A94332CB04D89266E470A76AA11200B45:prebuilt/es/dmoral/toasty/R$styleable.dex
 SHA-2B938E20E9018CB86E64F99A011F040D94A4817D:prebuilt/es/dmoral/toasty/R.dex
-SHA-36511E7ADFDE446D0670BE8728F9A4B30C96280D:digest
+SHA-F8F9B6F7FCB14EAEBBE267E6F95403B09673BF7A:digest

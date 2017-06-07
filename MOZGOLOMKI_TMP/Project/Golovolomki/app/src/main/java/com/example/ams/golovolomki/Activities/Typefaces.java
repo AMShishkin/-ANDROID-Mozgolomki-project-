@@ -8,7 +8,6 @@ import java.util.concurrent.ConcurrentMap;
 public class Typefaces {
     private static final ConcurrentMap<String, Typeface> cache = new ConcurrentHashMap<String, Typeface>();
 
-    //--------------------------------------------------------------------------------------------//
     public static Typeface get(Context c, String assetPath) {
         synchronized (cache) {
             if (!cache.containsKey(assetPath)) {
@@ -22,5 +21,4 @@ public class Typefaces {
             return cache.get(assetPath);
         }
     }
-    //--------------------------------------------------------------------------------------------//
 }
