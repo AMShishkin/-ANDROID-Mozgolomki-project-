@@ -85,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SettingsActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SettingsActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/SettingsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -97,6 +97,30 @@
                 <element signature="method#InitializeFonts#0;class#SettingsActivity#0" expanded="false" />
                 <element signature="method#InitializeButtons#0;class#SettingsActivity#0" expanded="false" />
                 <element signature="method#InitializeSwitches#0;class#SettingsActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseHelper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Assistants/DatabaseHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="685">
+              <caret line="214" column="93" selection-start-line="214" selection-start-column="93" selection-end-line="214" selection-end-column="93" />
+              <folding>
+                <element signature="method#DatabaseHelper#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#InitializationSettingsTable#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#InitializationFavoriteTable#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#InsertDateIntoPuzzleTable#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#UpdateSettingsState#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#UpdateSettingsRate#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#UpdateSettingsToNextRate#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#UpdateSettingsAppStart#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#UpdateSettingsToUp#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#UpdateSettingsDoubleClick#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#UpdateSettingsMoveToLast#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#UpdateSettingsTextAlign#0;class#DatabaseHelper#0" expanded="false" />
+                <element signature="method#onDowngrade#0;class#DatabaseHelper#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -2021,7 +2045,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values-xxhdpi/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-xxxhdpi/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/PuzzleActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Assistants/DatabaseHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_puzzle.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-xhdpi/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/PlaceholderFragment.java" />
@@ -2033,6 +2056,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/Typefaces.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/SplashScreenActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/SettingsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Assistants/DatabaseHelper.java" />
       </list>
     </option>
   </component>
@@ -2067,7 +2091,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2122,20 +2155,11 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Activities" />
+              <option name="myItemId" value="Assistants" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="Scratches">
-        <subPane />
       </pane>
     </panes>
   </component>
@@ -2500,8 +2524,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46534654" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.49724972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="1920" y="22" width="1920" height="1054" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3955224" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.49724972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="1912" y="-8" width="1936" height="1092" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2509,6 +2532,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15511727" sideWeight="0.48184818" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2521,7 +2545,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3955224" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2776,7 +2800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2809,7 +2832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2817,7 +2839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2828,9 +2849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2125">
           <caret line="144" column="38" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="75" />
-          <folding>
-            <element signature="e#482#1259#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2841,7 +2859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
           <caret line="67" column="31" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2849,15 +2866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="82" column="8" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
-          <folding>
-            <element signature="method#onCreate#0;class#AboutActivity#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#AboutActivity#0" expanded="false" />
-            <element signature="method#InitializeMenuButtons#0;class#AboutActivity#0" expanded="false" />
-            <element signature="e#1053#2349#0" expanded="true" />
-            <element signature="e#2348#2349#0" expanded="true" />
-            <element signature="method#InitializeFonts#0;class#AboutActivity#0" expanded="false" />
-            <element signature="method#InitializeInterface#0;class#AboutActivity#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2903,29 +2911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Assistants/DatabaseHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="171" column="44" selection-start-line="171" selection-start-column="44" selection-end-line="171" selection-end-column="44" />
-          <folding>
-            <element signature="method#DatabaseHelper#0;class#DatabaseHelper#0" expanded="false" />
-            <element signature="method#InitializationSettingsTable#0;class#DatabaseHelper#0" expanded="false" />
-            <element signature="method#InitializationFavoriteTable#0;class#DatabaseHelper#0" expanded="false" />
-            <element signature="method#InsertDateIntoPuzzleTable#0;class#DatabaseHelper#0" expanded="false" />
-            <element signature="method#UpdateSettingsState#0;class#DatabaseHelper#0" expanded="false" />
-            <element signature="method#UpdateSettingsRate#0;class#DatabaseHelper#0" expanded="false" />
-            <element signature="method#UpdateSettingsToNextRate#0;class#DatabaseHelper#0" expanded="false" />
-            <element signature="method#UpdateSettingsAppStart#0;class#DatabaseHelper#0" expanded="false" />
-            <element signature="method#UpdateSettingsToUp#0;class#DatabaseHelper#0" expanded="false" />
-            <element signature="method#UpdateSettingsDoubleClick#0;class#DatabaseHelper#0" expanded="false" />
-            <element signature="method#UpdateSettingsMoveToLast#0;class#DatabaseHelper#0" expanded="false" />
-            <element signature="method#UpdateSettingsTextAlign#0;class#DatabaseHelper#0" expanded="false" />
-            <element signature="method#onDowngrade#0;class#DatabaseHelper#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2977,6 +2962,28 @@
             <element signature="method#InitializeFonts#0;class#SettingsActivity#0" expanded="false" />
             <element signature="method#InitializeButtons#0;class#SettingsActivity#0" expanded="false" />
             <element signature="method#InitializeSwitches#0;class#SettingsActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Assistants/DatabaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="214" column="93" selection-start-line="214" selection-start-column="93" selection-end-line="214" selection-end-column="93" />
+          <folding>
+            <element signature="method#DatabaseHelper#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#InitializationSettingsTable#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#InitializationFavoriteTable#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#InsertDateIntoPuzzleTable#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#UpdateSettingsState#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#UpdateSettingsRate#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#UpdateSettingsToNextRate#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#UpdateSettingsAppStart#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#UpdateSettingsToUp#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#UpdateSettingsDoubleClick#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#UpdateSettingsMoveToLast#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#UpdateSettingsTextAlign#0;class#DatabaseHelper#0" expanded="false" />
+            <element signature="method#onDowngrade#0;class#DatabaseHelper#0" expanded="false" />
           </folding>
         </state>
       </provider>
