@@ -66,7 +66,7 @@ SHA-302D1ACF7E419DA8B6D862F1641EB99BA73531C0:prebuilt/com/example/ams/golovolomk
 SHA-997918A98BADD04761562191A6B9FCB3E464640F:prebuilt/com/example/ams/golovolomki/Alert/Alerter$1.dex
 SHA-6EBD70C0C46EAC7B521C1951EAEBAE3769A64A0B:prebuilt/com/example/ams/golovolomki/Alert/Alerter$2.dex
 SHA-810D45235DB300766F448777DD7932337671388F:prebuilt/com/example/ams/golovolomki/Alert/Alerter.dex
-SHA-42EBC3A6AF17CAE0E9112C42C6EC5AD4DB5A0318:prebuilt/com/example/ams/golovolomki/Assistants/DatabaseHelper.dex
+SHA-1D499423FDA5E6AB911536C50560DB53248D9D59:prebuilt/com/example/ams/golovolomki/Assistants/DatabaseHelper.dex
 SHA-02C4FF4B87068535D30BC2FC4C771F4B936AB9BF:prebuilt/com/example/ams/golovolomki/Assistants/DisplayMetricsHelper.dex
 SHA-85BC1175196F4F92793DADA796D0E954924540D8:prebuilt/com/example/ams/golovolomki/BuildConfig.dex
 SHA-56D5AB9A30A1C19DD802FB4C6FA83FE0C5A4FED7:prebuilt/com/example/ams/golovolomki/MainActivityViewList/Adapter.dex
@@ -133,4 +133,4 @@ SHA-208AF1DED8E212D50D6B8AD31600004C4ADD0DD2:prebuilt/es/dmoral/toasty/R$string.
 SHA-EB0EBAF87E30AAFF5D271DFC1F4C9BAD0095CA57:prebuilt/es/dmoral/toasty/R$style.dex
 SHA-3516C00A94332CB04D89266E470A76AA11200B45:prebuilt/es/dmoral/toasty/R$styleable.dex
 SHA-2B938E20E9018CB86E64F99A011F040D94A4817D:prebuilt/es/dmoral/toasty/R.dex
-SHA-6E3A5148CCD37AFD34CAFA270BD21CE7590780D8:digest
+SHA-92211298FB8063C8D4D9097AD4D4A82E026A1EA0:digest
