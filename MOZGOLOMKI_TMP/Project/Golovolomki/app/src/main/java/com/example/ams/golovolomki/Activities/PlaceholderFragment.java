@@ -62,7 +62,7 @@ public class PlaceholderFragment extends Fragment {
         Picasso.with(rootView.getContext())
                 .load(DatabaseHelper.listImages.get(PuzzleActivity.currentPuzzleNumber))
                 .resize(384, 256)
-                .placeholder(R.drawable.img0) // заглушка до загрузки изображения
+                .placeholder(R.drawable.img99999) // заглушка до загрузки изображения
                 .into((ImageView)rootView.findViewById(R.id.imageView2));
 
 
@@ -86,7 +86,7 @@ public class PlaceholderFragment extends Fragment {
         if (textViewState == null) textViewState = (TextView)rootView.findViewById(R.id.puzzle_state);
         textViewState.setTypeface(Typefaces.get(inflater.getContext(), "fonts/cavia_puzzle.ttf"));
         textViewState.setTypeface(textViewState.getTypeface(), Typeface.BOLD);
-        if (DatabaseHelper.favoriteCursor.getString(2).equals("")) textViewState.setText("ЕЩЕ НЕ ПРОЧИТАНО");
+        if (DatabaseHelper.favoriteCursor.getString(2).equals("")) textViewState.setText("НОВАЯ");
         else textViewState.setText(DatabaseHelper.favoriteCursor.getString(2));
 
 

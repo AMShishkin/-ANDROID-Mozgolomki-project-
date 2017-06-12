@@ -530,19 +530,19 @@ public final class R {
         public static final int ic_info_outline_white_48dp = 0x7f020074;
         public static final int ic_warning_outline_white = 0x7f020076;
         public static final int ic_warning_white_48dp = 0x7f020077;
-        public static final int notification_action_background = 0x7f020098;
-        public static final int notification_bg = 0x7f020099;
-        public static final int notification_bg_low = 0x7f02009a;
-        public static final int notification_bg_low_normal = 0x7f02009b;
-        public static final int notification_bg_low_pressed = 0x7f02009c;
-        public static final int notification_bg_normal = 0x7f02009d;
-        public static final int notification_bg_normal_pressed = 0x7f02009e;
-        public static final int notification_icon_background = 0x7f02009f;
-        public static final int notification_template_icon_bg = 0x7f0200a9;
-        public static final int notification_template_icon_low_bg = 0x7f0200aa;
-        public static final int notification_tile_bg = 0x7f0200a0;
-        public static final int notify_panel_notification_icon_bg = 0x7f0200a1;
-        public static final int toast_frame = 0x7f0200a4;
+        public static final int notification_action_background = 0x7f0200a3;
+        public static final int notification_bg = 0x7f0200a4;
+        public static final int notification_bg_low = 0x7f0200a5;
+        public static final int notification_bg_low_normal = 0x7f0200a6;
+        public static final int notification_bg_low_pressed = 0x7f0200a7;
+        public static final int notification_bg_normal = 0x7f0200a8;
+        public static final int notification_bg_normal_pressed = 0x7f0200a9;
+        public static final int notification_icon_background = 0x7f0200aa;
+        public static final int notification_template_icon_bg = 0x7f0200b4;
+        public static final int notification_template_icon_low_bg = 0x7f0200b5;
+        public static final int notification_tile_bg = 0x7f0200ab;
+        public static final int notify_panel_notification_icon_bg = 0x7f0200ac;
+        public static final int toast_frame = 0x7f0200af;
     }
     public static final class id {
         public static final int action0 = 0x7f0d00c0;
