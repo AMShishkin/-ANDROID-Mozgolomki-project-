@@ -12,8 +12,6 @@
     <dimen name="alerter_text_medium">16sp</dimen>
     <dimen name="alerter_text_small">12sp</dimen>
     <dimen name="answer_text_view_text_size">20sp</dimen>
-    <dimen name="decorative_line_top_margin_top">-66dp</dimen>
-    <dimen name="decorative_line_top_text_size">84sp</dimen>
     <dimen name="main_list_item_border_size">1dp</dimen>
     <dimen name="main_list_item_description_text_size">12sp</dimen>
     <dimen name="main_list_item_favorite_text_size">18sp</dimen>
@@ -21,7 +19,7 @@
     <dimen name="main_list_item_title_number_text_size">15sp</dimen>
     <dimen name="main_list_view_scroll_border_size">1dp</dimen>
     <dimen name="main_list_view_scroll_stoke_size">4dp</dimen>
-    <dimen name="puzzle_fragment_complexity_text_size">10sp</dimen>
+    <dimen name="puzzle_fragment_complexity_text_size">14sp</dimen>
     <dimen name="puzzle_fragment_favorite_text_size">16sp</dimen>
     <dimen name="puzzle_fragment_main_text_size">17sp</dimen>
     <dimen name="puzzle_fragment_title_text_size">60sp</dimen>

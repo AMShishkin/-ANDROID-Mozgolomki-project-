@@ -34,9 +34,6 @@
 
     <!-- ******************************************************************************************* -->
     <!-- PUZZLE ACTIVITY -->
-    <!-- decorative line -->
-    <dimen name="decorative_line_top_margin_top">-66dp</dimen>
-    <dimen name="decorative_line_top_text_size">84sp</dimen>
     <!-- puzzle fragment favorite -->
     <dimen name="puzzle_fragment_favorite_text_size">16sp</dimen>
     <dimen name="puzzle_layout_margin_left_right">4dp</dimen>

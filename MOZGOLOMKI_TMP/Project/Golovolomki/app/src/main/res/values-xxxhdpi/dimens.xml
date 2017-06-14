@@ -34,16 +34,13 @@
 
     <!-- ******************************************************************************************* -->
     <!-- PUZZLE ACTIVITY -->
-    <!-- decorative line -->
-    <dimen name="decorative_line_top_margin_top">-66dp</dimen>
-    <dimen name="decorative_line_top_text_size">84sp</dimen>
     <!-- puzzle fragment favorite -->
     <dimen name="puzzle_fragment_favorite_text_size">16sp</dimen>
     <dimen name="puzzle_layout_margin_left_right">4dp</dimen>
     <!-- puzzle fragment title -->
     <dimen name="puzzle_fragment_title_text_size">60sp</dimen>
     <!-- puzzle fragment complexity -->
-    <dimen name="puzzle_fragment_complexity_text_size">10sp</dimen>
+    <dimen name="puzzle_fragment_complexity_text_size">14sp</dimen>
     <!-- puzzle fragment main text -->
     <dimen name="puzzle_fragment_main_text_size">17sp</dimen>
     <!-- ******************************************************************************************* -->

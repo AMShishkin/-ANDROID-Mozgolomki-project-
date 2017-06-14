@@ -23,7 +23,6 @@ public class PuzzleActivity extends AppCompatActivity {
     public static Button buttonFavorite;
     public static boolean isAnswerAdvise = false;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -7,10 +7,10 @@
     <item name="abc_dialog_fixed_width_minor" type="dimen">90%</item>
     <item name="abc_dialog_min_width_major" type="dimen">55%</item>
     <item name="abc_dialog_min_width_minor" type="dimen">80%</item>
-    <dimen name="about_text_view_copyright_text_size">24sp</dimen>
-    <dimen name="about_text_view_middle_text_size">22sp</dimen>
-    <dimen name="about_text_view_top_text_size">24sp</dimen>
-    <dimen name="action_bar_buttons_text_size">19sp</dimen>
+    <dimen name="about_text_view_copyright_text_size">23sp</dimen>
+    <dimen name="about_text_view_middle_text_size">21sp</dimen>
+    <dimen name="about_text_view_top_text_size">22sp</dimen>
+    <dimen name="action_bar_buttons_text_size">15sp</dimen>
     <dimen name="alerter_alert_max_height">84dp</dimen>
     <dimen name="alerter_alert_min_height">64dp</dimen>
     <dimen name="alerter_alert_padding">10dp</dimen>
@@ -19,23 +19,21 @@
     <dimen name="alerter_text_medium">22sp</dimen>
     <dimen name="alerter_text_small">18sp</dimen>
     <dimen name="answer_text_view_text_size">25sp</dimen>
-    <dimen name="decorative_line_top_margin_top">-69dp</dimen>
-    <dimen name="decorative_line_top_text_size">88sp</dimen>
     <dimen name="main_list_item_border_size">1dp</dimen>
-    <dimen name="main_list_item_description_text_size">17sp</dimen>
+    <dimen name="main_list_item_description_text_size">15sp</dimen>
     <dimen name="main_list_item_favorite_text_size">20sp</dimen>
     <dimen name="main_list_item_state_complexity_text_size">12sp</dimen>
-    <dimen name="main_list_item_title_number_text_size">21sp</dimen>
+    <dimen name="main_list_item_title_number_text_size">20sp</dimen>
     <dimen name="main_list_view_scroll_border_size">1dp</dimen>
     <dimen name="main_list_view_scroll_stoke_size">4dp</dimen>
-    <dimen name="puzzle_fragment_complexity_text_size">18sp</dimen>
-    <dimen name="puzzle_fragment_favorite_text_size">20sp</dimen>
-    <dimen name="puzzle_fragment_main_text_size">25sp</dimen>
-    <dimen name="puzzle_fragment_title_text_size">80sp</dimen>
+    <dimen name="puzzle_fragment_complexity_text_size">20sp</dimen>
+    <dimen name="puzzle_fragment_favorite_text_size">18sp</dimen>
+    <dimen name="puzzle_fragment_main_text_size">23sp</dimen>
+    <dimen name="puzzle_fragment_title_text_size">75sp</dimen>
     <dimen name="puzzle_layout_margin_left_right">4dp</dimen>
     <dimen name="settings_switch_margin_left_right">25dp</dimen>
-    <dimen name="settings_switch_text_size">21sp</dimen>
-    <dimen name="title_text_size">120sp</dimen>
+    <dimen name="settings_switch_text_size">19sp</dimen>
+    <dimen name="title_text_size">100sp</dimen>
     <style name="Base.Theme.AppCompat.DialogWhenLarge" parent="Base.Theme.AppCompat.Dialog.FixedSize"/>
     <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="Base.Theme.AppCompat.Light.Dialog.FixedSize"/>
 </resources>

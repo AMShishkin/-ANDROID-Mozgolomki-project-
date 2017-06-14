@@ -30,7 +30,7 @@
 
 
     <string name="title_activity_main">MainActivity</string>
-    <string name="activity_main_title">|||МОЗГОЛОМКИ|||</string>
+    <string name="activity_main_title">|||||МОЗГОЛОМКИ|||||</string>
     <string name="activity_main_button_last">ЗАКЛАДКА</string>
     <string name="activity_main_button_favorites">ИЗБРАННОЕ</string>
     <string name="activity_main_button_settings">НАСТРОЙКИ</string>
@@ -45,7 +45,7 @@
 
 
     <string name="title_activity_settings">SettingsActivity</string>
-    <string name="activity_settings_title">||||НАСТРОЙКИ||||</string>
+    <string name="activity_settings_title">||||||НАСТРОЙКИ||||||</string>
     <string name="activity_settings_switch_to_last">АВТОМАТИЧЕСКИ ОТКРЫВАТЬ\nГОЛОВОЛОМКУ С ЗАКЛАДКОЙ\nПРИ ЗАПУСКЕ ПРИЛОЖЕНИЯ</string>
     <string name="activity_settings_switch_text_align">ВЫРАВНИВАНИЕ ТЕКСТА\nПО ЦЕНТРУ</string>
     <string name="activity_settings_button_reset_settings">СБРОСИТЬ НАСТРОЙКИ</string>
@@ -54,7 +54,7 @@
     <string name="activity_settings_switch_night_theme">НОЧНОЙ РЕЖИМ\n(будет добавлено в след. обновлении)</string>
 
 
-    <string name="activity_about_title">||||ПОМОЩЬ||||</string>
+    <string name="activity_about_title">||||||ПОМОЩЬ||||||</string>
     <string name="activity_about_copyright">© А.М. Шишкин, 2017</string>
     <string name="activity_about_app_version">Версия приложения: 1.0.0</string>
     <string name="activity_about_button_email">АВТОРУ</string>
@@ -70,7 +70,7 @@
     <string name="activity_puzzle_fragment_description">Нет текста</string>
     <string name="activity_puzzle_fragment_complexity">СЛОЖНО</string>
     <string name="activity_answer_description">Нет текста</string>
-    <string name="activity_answer_title">||ПОМОЩЬ||</string>
+    <string name="activity_answer_title">|||||ПОМОЩЬ|||||</string>
     <string name="activity_answer_button_answer">ОТВЕТ</string>
     <string name="activity_answer_button_share">ОТПРАВИТЬ</string>
 
