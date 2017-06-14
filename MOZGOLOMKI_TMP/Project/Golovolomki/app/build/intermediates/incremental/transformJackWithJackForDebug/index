@@ -27,8 +27,8 @@ f:prebuilt/com/example/ams/golovolomki/Activities/SettingsActivity$2.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/PlaceholderFragment.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/AnswerActivity$1.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/MainActivity$2.dex
-f:prebuilt/com/example/ams/golovolomki/Activities/SplashScreenActivity.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/SettingsActivity$1$2.dex
+f:prebuilt/com/example/ams/golovolomki/Activities/SplashScreenActivity.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/SectionsPagerAdapter.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/MainActivity$3.dex
 f:prebuilt/com/example/ams/golovolomki/Activities/SettingsActivity.dex
@@ -64,8 +64,8 @@ f:prebuilt/com/example/ams/golovolomki/Alert/Alerter$2.dex
 f:prebuilt/com/example/ams/golovolomki/Alert/Alert$3.dex
 f:prebuilt/com/example/ams/golovolomki/Alert/Alerter.dex
 f:prebuilt/com/example/ams/golovolomki/Alert/Alert$1.dex
-f:prebuilt/com/example/ams/golovolomki/R$bool.dex
 f:prebuilt/com/example/ams/golovolomki/R$mipmap.dex
+f:prebuilt/com/example/ams/golovolomki/R$bool.dex
 f:prebuilt/com/example/ams/golovolomki/BuildConfig.dex
 f:prebuilt/com/example/ams/golovolomki/R$layout.dex
 f:prebuilt/android/support/v7/recyclerview/R.dex
@@ -79,8 +79,8 @@ f:prebuilt/android/support/v7/appcompat/R$drawable.dex
 f:prebuilt/android/support/v7/appcompat/R$color.dex
 f:prebuilt/android/support/v7/appcompat/R$styleable.dex
 f:prebuilt/android/support/v7/appcompat/R$id.dex
-f:prebuilt/android/support/v7/appcompat/R$integer.dex
 f:prebuilt/android/support/v7/appcompat/R$attr.dex
+f:prebuilt/android/support/v7/appcompat/R$integer.dex
 f:prebuilt/android/support/v7/appcompat/R$style.dex
 f:prebuilt/android/support/v7/appcompat/R$string.dex
 f:prebuilt/android/support/v7/appcompat/R$dimen.dex
@@ -117,8 +117,8 @@ f:prebuilt/es/dmoral/toasty/R$drawable.dex
 f:prebuilt/es/dmoral/toasty/R$color.dex
 f:prebuilt/es/dmoral/toasty/R$styleable.dex
 f:prebuilt/es/dmoral/toasty/R$id.dex
-f:prebuilt/es/dmoral/toasty/R$integer.dex
 f:prebuilt/es/dmoral/toasty/R$attr.dex
+f:prebuilt/es/dmoral/toasty/R$integer.dex
 f:prebuilt/es/dmoral/toasty/R$style.dex
 f:prebuilt/es/dmoral/toasty/R$string.dex
 f:prebuilt/es/dmoral/toasty/R$dimen.dex
@@ -177,8 +177,8 @@ f:jayce/com/example/ams/golovolomki/R$drawable.jayce
 f:jayce/com/example/ams/golovolomki/R$bool.jayce
 f:jayce/com/example/ams/golovolomki/apprater/AppRater$3.jayce
 f:jayce/com/example/ams/golovolomki/apprater/Market.jayce
-f:jayce/com/example/ams/golovolomki/apprater/AppRater.jayce
 f:jayce/com/example/ams/golovolomki/apprater/AppRater$2.jayce
+f:jayce/com/example/ams/golovolomki/apprater/AppRater.jayce
 f:jayce/com/example/ams/golovolomki/apprater/ApplicationRatingInfo.jayce
 f:jayce/com/example/ams/golovolomki/apprater/AmazonMarket.jayce
 f:jayce/com/example/ams/golovolomki/apprater/GoogleMarket.jayce
@@ -193,9 +193,9 @@ f:jayce/com/example/ams/golovolomki/MainActivityViewList/ViewListItem.jayce
 f:jayce/com/example/ams/golovolomki/Alert/Alerter$2.jayce
 f:jayce/com/example/ams/golovolomki/Alert/Alert$3.jayce
 f:jayce/com/example/ams/golovolomki/Alert/Alerter.jayce
+f:jayce/com/example/ams/golovolomki/Alert/Alert$1.jayce
 f:jayce/com/example/ams/golovolomki/Alert/Alert.jayce
 f:jayce/com/example/ams/golovolomki/Alert/Alerter$1.jayce
-f:jayce/com/example/ams/golovolomki/Alert/Alert$1.jayce
 f:jayce/com/example/ams/golovolomki/Alert/Alert$2.jayce
 f:jayce/com/example/ams/golovolomki/R$styleable.jayce
 f:jayce/android/support/v7/recyclerview/R$id.jayce
@@ -207,11 +207,11 @@ f:jayce/android/support/v7/appcompat/R$layout.jayce
 f:jayce/android/support/v7/appcompat/R$color.jayce
 f:jayce/android/support/v7/appcompat/R$dimen.jayce
 f:jayce/android/support/v7/appcompat/R$string.jayce
-f:jayce/android/support/v7/appcompat/R$anim.jayce
 f:jayce/android/support/v7/appcompat/R.jayce
+f:jayce/android/support/v7/appcompat/R$anim.jayce
 f:jayce/android/support/v7/appcompat/R$integer.jayce
-f:jayce/android/support/v7/appcompat/R$bool.jayce
 f:jayce/android/support/v7/appcompat/R$drawable.jayce
+f:jayce/android/support/v7/appcompat/R$bool.jayce
 f:jayce/android/support/v7/appcompat/R$attr.jayce
 f:jayce/android/support/v7/appcompat/R$id.jayce
 f:jayce/android/support/v7/appcompat/R$style.jayce
@@ -221,8 +221,8 @@ f:jayce/android/support/coreutils/R.jayce
 f:jayce/android/support/coreui/R.jayce
 f:jayce/android/support/design/R$layout.jayce
 f:jayce/android/support/design/R$color.jayce
-f:jayce/android/support/design/R$dimen.jayce
 f:jayce/android/support/design/R$animator.jayce
+f:jayce/android/support/design/R$dimen.jayce
 f:jayce/android/support/design/R$string.jayce
 f:jayce/android/support/design/R.jayce
 f:jayce/android/support/design/R$anim.jayce
@@ -244,8 +244,8 @@ f:jayce/es/dmoral/toasty/R$layout.jayce
 f:jayce/es/dmoral/toasty/R$color.jayce
 f:jayce/es/dmoral/toasty/R$dimen.jayce
 f:jayce/es/dmoral/toasty/R$string.jayce
-f:jayce/es/dmoral/toasty/R.jayce
 f:jayce/es/dmoral/toasty/R$anim.jayce
+f:jayce/es/dmoral/toasty/R.jayce
 f:jayce/es/dmoral/toasty/R$integer.jayce
 f:jayce/es/dmoral/toasty/R$bool.jayce
 f:jayce/es/dmoral/toasty/R$drawable.jayce

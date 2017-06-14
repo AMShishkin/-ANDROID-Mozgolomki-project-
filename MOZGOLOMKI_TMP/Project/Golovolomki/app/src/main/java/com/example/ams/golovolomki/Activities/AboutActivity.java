@@ -22,7 +22,6 @@ public class AboutActivity extends Activity {
         setContentView(R.layout.activity_about);
 
         InitializeInterface();
-        InitializeMenuButtons();
     }
 
     @Override
@@ -30,7 +29,23 @@ public class AboutActivity extends Activity {
         startActivity(new Intent(AboutActivity.this, MainActivity.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
     }
 
-    private void InitializeMenuButtons() {
+    private void InitializeInterface() {
+        // set text views font
+        ((TextView) findViewById(R.id.about_title)).setTypeface(Typefaces.get(getBaseContext(), "fonts/mainFont.ttf"));
+        ((TextView) findViewById(R.id.about_main_text_top)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
+        ((TextView) findViewById(R.id.about_main_text_middle)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
+        ((TextView) findViewById(R.id.about_main_text_copyright)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
+
+        // set text views text alignment
+        findViewById(R.id.about_main_text_top).setTextAlignment(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? View.TEXT_ALIGNMENT_CENTER : View.TEXT_ALIGNMENT_VIEW_START);
+        findViewById(R.id.about_main_text_middle).setTextAlignment(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? View.TEXT_ALIGNMENT_CENTER : View.TEXT_ALIGNMENT_VIEW_START);
+
+        // set buttons font
+        ((Button) findViewById(R.id.about_button_email)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
+        ((Button) findViewById(R.id.about_button_app)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
+        ((Button) findViewById(R.id.about_button_rate)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
+
+        // set buttons listener
         View.OnClickListener _oclBtn = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -61,23 +76,5 @@ public class AboutActivity extends Activity {
         findViewById(R.id.about_button_rate).setOnClickListener(_oclBtn);
         findViewById(R.id.about_button_app).setOnClickListener(_oclBtn);
         findViewById(R.id.about_button_email).setOnClickListener(_oclBtn);
-    }
-
-    private void InitializeFonts() {
-        ((TextView) findViewById(R.id.about_title)).setTypeface(Typefaces.get(getBaseContext(), "fonts/mainFont.ttf"));
-        ((TextView) findViewById(R.id.about_main_text_top)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
-        ((TextView) findViewById(R.id.about_main_text_middle)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
-        ((TextView) findViewById(R.id.about_main_text_copyright)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
-
-        ((Button) findViewById(R.id.about_button_email)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
-        ((Button) findViewById(R.id.about_button_app)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
-        ((Button) findViewById(R.id.about_button_rate)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
-    }
-
-    private void InitializeInterface() {
-        InitializeFonts();
-
-        findViewById(R.id.about_main_text_top).setTextAlignment(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? View.TEXT_ALIGNMENT_CENTER : View.TEXT_ALIGNMENT_VIEW_START);
-        findViewById(R.id.about_main_text_middle).setTextAlignment(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? View.TEXT_ALIGNMENT_CENTER : View.TEXT_ALIGNMENT_VIEW_START);
     }
 }
