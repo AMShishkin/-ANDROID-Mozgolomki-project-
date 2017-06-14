@@ -144,12 +144,12 @@
         "source": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\drawable\\view_button.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img19.png",
-        "source": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\drawable\\img19.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "C:\\Users\\User\\.android\\build-cache\\afb963bcd4bac635a866d5bdf633968726f58077\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img19.png",
+        "source": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\drawable\\img19.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img35.png",
@@ -328,12 +328,12 @@
         "source": "C:\\Users\\User\\.android\\build-cache\\afb963bcd4bac635a866d5bdf633968726f58077\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img12.png",
-        "source": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\drawable\\img12.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img99999.png",
         "source": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\drawable\\img99999.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img12.png",
+        "source": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\drawable\\img12.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
