@@ -1,29 +1,5 @@
 package com.example.ams.golovolomki.Activities;
 
-/*
-values-sw720dp          10.1” tablet 1280x800 mdpi
-
-values-sw600dp          7.0”  tablet 1024x600 mdpi
-
-values-sw480dp          5.4”  480x854 mdpi
-values-sw480dp          5.1”  480x800 mdpi
-
-values-xxhdpi           5.5"  1080x1920 xxhdpi
-values-xxhdpi           5.5"  1440x2560 xxhdpi
-
-values-xhdpi            4.7”   1280x720 xhdpi
-values-xhdpi            4.65”  720x1280 xhdpi
-
-values-hdpi             4.0” 480x800 hdpi
-values-hdpi             3.7” 480x854 hdpi
-
-values-mdpi             3.2” 320x480 mdpi
-
-values-ldpi             3.4” 240x432 ldpi
-values-ldpi             3.3” 240x400 ldpi
-values-ldpi             2.7” 240x320 ldpi
- */
-
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
@@ -50,14 +26,15 @@ public class MainActivity extends AppCompatActivity {
                          TOAST_FAVORITE_LIST_EMPTY = "СПИСОК ИЗБРАННОГО ПУСТ",
                          FAVORITE_BUTTON_TEXT_TRUE = "СПИСОК",
                          FAVORITE_BUTTON_TEXT_FALSE = "ИЗБРАННОЕ";
+
     private boolean isFavorite = false;
     private long back_pressed = 0;
+
     // main view list
-    private ArrayList<ViewListItem> listItems = new ArrayList<ViewListItem>(50);
+    private ArrayList<ViewListItem> listItems = new ArrayList<>(50);
     private ListView listPuzzles, listPuzzleItem;
 
     private int scrollSpeed = 15;
-
 
     // !!!! ВОЗМОЖНО ВЫНЕСТИ СТАТИКУ В ДР КЛАСС
     public static SQLiteDatabase db;
@@ -67,10 +44,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         getWindow().setBackgroundDrawable(null);
         setContentView(R.layout.activity_main);
+
         // set orientation
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
         // initialize db
         MainActivity.bdh = new DatabaseHelper(getApplicationContext());
         MainActivity.db = MainActivity.bdh.getReadableDatabase();
@@ -249,7 +229,7 @@ public class MainActivity extends AppCompatActivity {
             if (listItems.size() == (DatabaseHelper.valueCursor.getCount() - Integer.parseInt(DatabaseHelper.settingsCursor.getString(1)) - 1)) {
                 DatabaseHelper.favoriteCursor.moveToPosition(DatabaseHelper.valueCursor.getCount() - (listItems.size() + 1));
                 listItems.add(new ViewListItem(DatabaseHelper.valueCursor.getInt(0),
-                        "<-- " + DatabaseHelper.valueCursor.getString(1) + " -->",
+                        "<--- " + DatabaseHelper.valueCursor.getString(1) + " --->",
                         DatabaseHelper.valueCursor.getString(2),
                         DatabaseHelper.valueCursor.getString(6),
                         DatabaseHelper.favoriteCursor.getString(2),
@@ -273,7 +253,7 @@ public class MainActivity extends AppCompatActivity {
         while (DatabaseHelper.valueCursor.moveToNext()) {
             _item = new ViewListItem();
 
-            if (listItems.size() == _lastItemIndex) _item.name = "<-- " + DatabaseHelper.valueCursor.getString(1) + " -->";
+            if (listItems.size() == _lastItemIndex) _item.name = "<--- " + DatabaseHelper.valueCursor.getString(1) + " --->";
             else _item.name = DatabaseHelper.valueCursor.getString(1);
 
             _item.index = DatabaseHelper.valueCursor.getInt(0);
