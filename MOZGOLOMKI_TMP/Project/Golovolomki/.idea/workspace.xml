@@ -54,62 +54,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AnswerActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AnswerActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/AnswerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+            <state relative-caret-position="272">
+              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
               <folding>
                 <element signature="method#onCreate#0;class#AnswerActivity#0" expanded="false" />
                 <element signature="method#onResume#0;class#AnswerActivity#0" expanded="false" />
                 <element signature="method#onBackPressed#0;class#AnswerActivity#0" expanded="false" />
-                <element signature="method#InitializeFonts#0;class#AnswerActivity#0" expanded="false" />
-                <element signature="method#InitializeMenuButtons#0;class#AnswerActivity#0" expanded="false" />
+                <element signature="method#InitializeInterface#0;class#AnswerActivity#0" expanded="false" />
+                <element signature="e#2269#4467#0" expanded="true" />
+                <element signature="e#4466#4467#0" expanded="true" />
                 <element signature="method#InitializeAnswer#0;class#AnswerActivity#0" expanded="false" />
                 <element signature="method#InitializeAdvice#0;class#AnswerActivity#0" expanded="false" />
-                <element signature="method#InitializeAnswerAdvice#0;class#AnswerActivity#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Assistants/DatabaseHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1989">
-              <caret line="170" column="61" selection-start-line="170" selection-start-column="61" selection-end-line="170" selection-end-column="61" />
-              <folding>
-                <element signature="method#DatabaseHelper#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#InitializationSettingsTable#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#InitializationFavoriteTable#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#InsertDateIntoPuzzleTable#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#InitializationPuzzleTable#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#UpdateSettingsState#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#UpdateSettingsRate#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#UpdateSettingsToNextRate#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#UpdateSettingsAppStart#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#UpdateSettingsToUp#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#UpdateSettingsDoubleClick#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#UpdateSettingsMoveToLast#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#UpdateSettingsTextAlign#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#UpdatePuzzleFavorite#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#UpdatePuzzleState#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#onDowngrade#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#DropSettingsTable#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#DropFavoriteTable#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#DropPuzzleTable#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#onCreate#0;class#DatabaseHelper#0" expanded="false" />
-                <element signature="method#onUpgrade#0;class#DatabaseHelper#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AboutActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/AboutActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="38" />
               <folding>
                 <element signature="method#onCreate#0;class#AboutActivity#0" expanded="false" />
                 <element signature="method#onBackPressed#0;class#AboutActivity#0" expanded="false" />
@@ -121,26 +89,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlaceholderFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/PlaceholderFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="88" column="95" selection-start-line="88" selection-start-column="95" selection-end-line="88" selection-end-column="95" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="activity_answer.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_answer.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
+            <state relative-caret-position="792">
               <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -2067,7 +2025,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values-xhdpi/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_puzzle.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/AnswerActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/Typefaces.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/SplashScreenActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/SettingsActivity.java" />
@@ -2075,6 +2032,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/PlaceholderFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Assistants/DatabaseHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/AboutActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/AnswerActivity.java" />
       </list>
     </option>
   </component>
@@ -2109,11 +2067,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
+      <pane id="PackagesPane">
         <subPane />
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
+      <pane id="ProjectPane">
         <subPane />
       </pane>
       <pane id="Scratches">
@@ -2177,8 +2134,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Golovolomki" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golovolomki" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlaceholderFragment.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2533,8 +2517,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2310231" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
@@ -2543,6 +2527,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46534654" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.49724972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="1912" y="-8" width="1936" height="1092" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3955224" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2562,7 +2547,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3955224" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2579,7 +2563,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="39" />
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2668,23 +2652,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="107" column="12" selection-start-line="107" selection-start-column="12" selection-end-line="107" selection-end-column="12" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/apprater/AppRater.java">
@@ -2709,23 +2693,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/alerter_alert_view.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
           <caret line="29" column="91" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png">
@@ -2766,13 +2750,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-xlarge/dimens.xml">
@@ -2825,13 +2809,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_puzzle.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/MainActivityViewList/ViewListItem.java">
@@ -2849,13 +2833,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_puzzle.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2125">
           <caret line="144" column="38" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="75" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-xhdpi/dimens.xml">
@@ -2885,13 +2869,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/Typefaces.java">
@@ -2905,10 +2889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#onCreate#0;class#SplashScreenActivity#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2916,55 +2896,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#onCreate#0;class#SettingsActivity#0" expanded="false" />
-            <element signature="method#onResume#0;class#SettingsActivity#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#SettingsActivity#0" expanded="false" />
-            <element signature="method#InitializeFonts#0;class#SettingsActivity#0" expanded="false" />
-            <element signature="method#InitializeButtons#0;class#SettingsActivity#0" expanded="false" />
-            <element signature="method#InitializeSwitches#0;class#SettingsActivity#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/imgLoading.png" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_answer.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/AnswerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
-          <folding>
-            <element signature="method#onCreate#0;class#AnswerActivity#0" expanded="false" />
-            <element signature="method#onResume#0;class#AnswerActivity#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#AnswerActivity#0" expanded="false" />
-            <element signature="method#InitializeFonts#0;class#AnswerActivity#0" expanded="false" />
-            <element signature="method#InitializeMenuButtons#0;class#AnswerActivity#0" expanded="false" />
-            <element signature="method#InitializeAnswer#0;class#AnswerActivity#0" expanded="false" />
-            <element signature="method#InitializeAdvice#0;class#AnswerActivity#0" expanded="false" />
-            <element signature="method#InitializeAnswerAdvice#0;class#AnswerActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/PlaceholderFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="88" column="95" selection-start-line="88" selection-start-column="95" selection-end-line="88" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Assistants/DatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1989">
@@ -2995,16 +2930,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/PlaceholderFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="88" column="95" selection-start-line="88" selection-start-column="95" selection-end-line="88" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/AboutActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="38" />
           <folding>
             <element signature="method#onCreate#0;class#AboutActivity#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#AboutActivity#0" expanded="false" />
             <element signature="method#InitializeInterface#0;class#AboutActivity#0" expanded="false" />
             <element signature="e#2432#3728#0" expanded="true" />
             <element signature="e#3727#3728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_answer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ams/golovolomki/Activities/AnswerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <folding>
+            <element signature="method#onCreate#0;class#AnswerActivity#0" expanded="false" />
+            <element signature="method#onResume#0;class#AnswerActivity#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#AnswerActivity#0" expanded="false" />
+            <element signature="method#InitializeInterface#0;class#AnswerActivity#0" expanded="false" />
+            <element signature="e#2269#4467#0" expanded="true" />
+            <element signature="e#4466#4467#0" expanded="true" />
+            <element signature="method#InitializeAnswer#0;class#AnswerActivity#0" expanded="false" />
+            <element signature="method#InitializeAdvice#0;class#AnswerActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>

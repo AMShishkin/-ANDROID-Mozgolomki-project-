@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import com.example.ams.golovolomki.Assistants.DatabaseHelper;
+import com.example.ams.golovolomki.BuildConfig;
 import com.example.ams.golovolomki.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
@@ -24,31 +25,7 @@ public class AnswerActivity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_answer);
 
-        InitializeMenuButtons();
-        InitializeFonts();
-
-        this.findViewById(R.id.answer_text_view).setTextAlignment(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? View.TEXT_ALIGNMENT_CENTER : View.TEXT_ALIGNMENT_VIEW_START);
-
-        // initialize ads RELEASE
-        //AdView mPublisherAdView = (PublisherAdView)rootView.findViewById(R.id.adView);
-        //  PublisherAdRequest adRequest = new PublisherAdRequest.Builder().build();
-        //  mPublisherAdView.loadAd(adRequest);
-
-        // TEST ADS
-        AdView adContainer = (AdView)findViewById(R.id.adViewAnswer);
-
-        AdView mAdView = new AdView(getApplicationContext());
-        mAdView.setAdSize(ADSIZE);
-        mAdView.setAdUnitId("ca-app-pub-9188008799728984/1523306959");
-
-        adContainer.addView(mAdView);
-
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .addTestDevice("BEA3544ED9561600F831EE6B5A414F49") // Galaxy A3 2016
-                .build();
-
-        mAdView.loadAd(adRequest);
+        InitializeInterface();
     }
 
     @Override
@@ -64,15 +41,19 @@ public class AnswerActivity extends AppCompatActivity {
         this.getBaseContext().startActivity(new Intent(Intent.ACTION_MAIN).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK).setClass(AnswerActivity.this, PuzzleActivity.class));
     }
 
-    private void InitializeFonts() {
-        ((TextView)findViewById(R.id.answer_title)).setTypeface(Typefaces.get(getBaseContext(), "fonts/mainFont.ttf"));
+    private void InitializeInterface() {
+        // set text view font
+        ((TextView) findViewById(R.id.answer_title)).setTypeface(Typefaces.get(getBaseContext(), "fonts/mainFont.ttf"));
         ((TextView)findViewById(R.id.answer_text_view)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
 
-        ((Button)findViewById(R.id.answer_button_share)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
-        ((Button)findViewById(R.id.answer_button_wiki)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
-    }
+        // set buttons font
+        ((Button) findViewById(R.id.answer_button_share)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
+        ((Button) findViewById(R.id.answer_button_wiki)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
 
-    private void InitializeMenuButtons() {
+        // set text view alignment
+        findViewById(R.id.answer_text_view).setTextAlignment(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? View.TEXT_ALIGNMENT_CENTER : View.TEXT_ALIGNMENT_VIEW_START);
+
+        // set buttons listener
         View.OnClickListener _oclBtn = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -112,16 +93,32 @@ public class AnswerActivity extends AppCompatActivity {
 
         findViewById(R.id.answer_button_share).setOnClickListener(_oclBtn);
         findViewById(R.id.answer_button_wiki).setOnClickListener(_oclBtn);
+
+        // set admob block
+        AdView _adContainer = (AdView) findViewById(R.id.adViewAnswer);
+        AdView _mAdView = new AdView(getApplicationContext());
+        _mAdView.setAdSize(ADSIZE);
+        _mAdView.setAdUnitId("ca-app-pub-9188008799728984/1523306959");
+        _adContainer.addView(_mAdView);
+        AdRequest _adRequest;
+
+        if (BuildConfig.DEBUG) _adRequest = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .addTestDevice("BEA3544ED9561600F831EE6B5A414F49") // Galaxy A3 2016
+                .build();
+        else _adRequest = new AdRequest.Builder().build();
+
+        _mAdView.loadAd(_adRequest);
     }
 
     private void InitializeAnswer() {
-        InitializeAnswerAdvice();
+        ((TextView) findViewById(R.id.answer_title)).setText("||||||ОТВЕТ||||||");
 
         DatabaseHelper.valueCursor.moveToFirst();
         DatabaseHelper.valueCursor.move(PuzzleActivity.mViewPager.getCurrentItem());
 
-        ((TextView)findViewById(R.id.answer_text_view)).setText(DatabaseHelper.valueCursor.getString(4));
-        ((Button)findViewById(R.id.answer_button_wiki)).setText("ВИКИПЕДИЯ");
+        ((TextView) findViewById(R.id.answer_text_view)).setText(DatabaseHelper.valueCursor.getString(4));
+        ((Button) findViewById(R.id.answer_button_wiki)).setText("ВИКИПЕДИЯ");
 
         MainActivity.db = MainActivity.bdh.getReadableDatabase();
 
@@ -130,16 +127,12 @@ public class AnswerActivity extends AppCompatActivity {
     }
 
     private void InitializeAdvice() {
-        InitializeAnswerAdvice();
+        ((TextView) findViewById(R.id.answer_title)).setText("||||ПОДСКАЗКА||||");
 
         DatabaseHelper.valueCursor.moveToFirst();
         DatabaseHelper.valueCursor.move((PuzzleActivity.mViewPager.getCurrentItem()));
-        ((TextView)findViewById(R.id.answer_text_view)).setText(DatabaseHelper.valueCursor.getString(5));
-        ((Button)findViewById(R.id.answer_button_wiki)).setText("◦ОТВЕТ◦");
-    }
 
-    private void InitializeAnswerAdvice() {
-        if (PuzzleActivity.isAnswerAdvise) ((TextView)findViewById(R.id.answer_title)).setText("||||||ОТВЕТ||||||");
-        else ((TextView)findViewById(R.id.answer_title)).setText("||||ПОДСКАЗКА||||");
+        ((TextView) findViewById(R.id.answer_text_view)).setText(DatabaseHelper.valueCursor.getString(5));
+        ((Button) findViewById(R.id.answer_button_wiki)).setText("◦ОТВЕТ◦");
     }
 }
