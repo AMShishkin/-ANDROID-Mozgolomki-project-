@@ -112,7 +112,7 @@ public class AnswerActivity extends AppCompatActivity {
     }
 
     private void InitializeAnswer() {
-        ((TextView) findViewById(R.id.answer_title)).setText("||||||ОТВЕТ||||||");
+        ((TextView) findViewById(R.id.answer_title)).setText("||||||||ОТВЕТ||||||||");
 
         DatabaseHelper.valueCursor.moveToFirst();
         DatabaseHelper.valueCursor.move(PuzzleActivity.mViewPager.getCurrentItem());
@@ -127,7 +127,7 @@ public class AnswerActivity extends AppCompatActivity {
     }
 
     private void InitializeAdvice() {
-        ((TextView) findViewById(R.id.answer_title)).setText("||||ПОДСКАЗКА||||");
+        ((TextView) findViewById(R.id.answer_title)).setText("|||||||ПОДСКАЗКА|||||||");
 
         DatabaseHelper.valueCursor.moveToFirst();
         DatabaseHelper.valueCursor.move((PuzzleActivity.mViewPager.getCurrentItem()));
