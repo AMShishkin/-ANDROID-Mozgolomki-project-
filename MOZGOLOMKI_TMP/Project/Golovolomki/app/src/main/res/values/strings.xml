@@ -1,33 +1,19 @@
 <resources>
-    <string name="app_name">• МОЗГО •\nломки</string>
+    <string name="app_name">MOZGOLOMKI</string>
     <string name="banner_ad_unit_id">ca-app-pub-9188008799728984/3543487752</string>
     <string name="banner_ad_unit_id_answer">ca-app-pub-9188008799728984/1523306959</string>
 
-
-
-
-
     <string name="title_activity_puzzle">PuzzleActivity</string>
-
-
-
-
-
-
 
     <string name="lib_name">Alerter</string>
     <string name="msg.alert_cleared">Alert Cleared</string>
     <string name="msg.no_alert_showing">No Alert Showing</string>
-
-
 
     <string name="apprater_dialog_title">Оценить приложение</string>
     <string name="apprater_rate_message">Понравилось приложение?\nОцените приложение и оставьте отзыв.\nВаш отзыв очень важен для меня!</string>
     <string name="apprater_rate">ОЦЕНИТЬ</string>
     <string name="apprater_later">ПОЗЖЕ</string>
     <string name="apprater_no_thanks">НИКОГДА</string>
-
-
 
     <string name="title_activity_main">MainActivity</string>
     <string name="activity_main_title">|||||||МОЗГОЛОМКИ|||||||</string>
@@ -43,7 +29,6 @@
     <string name="activity_main_item_complexity">ТЯЖЕЛАЯ</string>
     <string name="activity_main_item_favorite">★</string>
 
-
     <string name="title_activity_settings">SettingsActivity</string>
     <string name="activity_settings_title">||||||||НАСТРОЙКИ||||||||</string>
     <string name="activity_settings_switch_to_last">АВТОМАТИЧЕСКИ ОТКРЫВАТЬ\nГОЛОВОЛОМКУ С ЗАКЛАДКОЙ\nПРИ ЗАПУСКЕ ПРИЛОЖЕНИЯ</string>
@@ -52,7 +37,6 @@
     <string name="activity_settings_switch_sorting">Сортировать список\nпо возрастанию</string>
     <string name="activity_settings_switch_text_size">УВЕЛИЧИТЬ РАЗМЕР ШРИФТА\n(будет добавлено в след. обновлении)</string>
     <string name="activity_settings_switch_night_theme">НОЧНОЙ РЕЖИМ\n(будет добавлено в след. обновлении)</string>
-
 
     <string name="activity_about_title">||||||||ПОМОЩЬ||||||||</string>
     <string name="activity_about_copyright">© А.М. Шишкин, 2017</string>
@@ -73,6 +57,4 @@
     <string name="activity_answer_title">|||||||ПОМОЩЬ|||||||</string>
     <string name="activity_answer_button_answer">ОТВЕТ</string>
     <string name="activity_answer_button_share">ОТПРАВИТЬ</string>
-
-
 </resources>

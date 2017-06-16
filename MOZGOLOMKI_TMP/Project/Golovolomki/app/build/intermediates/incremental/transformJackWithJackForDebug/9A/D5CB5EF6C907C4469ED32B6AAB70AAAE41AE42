@@ -2106,7 +2106,7 @@ SHA-786CB500E7EAD23791100FEFCFFC7D3995659DFD:prebuilt/android/support/v7/widget/
 SHA-D376F7E049589D582C5FF64002CBBE5700B6F432:prebuilt/android/support/v7/widget/helper/ItemTouchUIUtilImpl$Lollipop.dex
 SHA-4926283895D72CF3F062CAF913345788B312370F:prebuilt/android/support/v7/widget/helper/ItemTouchUIUtilImpl.dex
 SHA-6E38EA56D5229F1C97D24014D01DFAA72FA70D69:prebuilt/android/support/v7/widget/util/SortedListAdapterCallback.dex
-SHA-F0968B79D9EFAA7B484E52D554D6FC44DAC82A28:prebuilt/com/example/ams/golovolomki/Activities/AboutActivity$1.dex
+SHA-B3547A6C3384AC50C301ECEDEC5652E7052C1F53:prebuilt/com/example/ams/golovolomki/Activities/AboutActivity$1.dex
 SHA-0E603013AADB07CC6E9CC79B2F3C3B138A36B65D:prebuilt/com/example/ams/golovolomki/Activities/AboutActivity.dex
 SHA-868F967AFB6E2CFCE4F73737B4A150BCE114B60D:prebuilt/com/example/ams/golovolomki/Activities/AnswerActivity$1.dex
 SHA-45156C5D6A3286471EE68ED5F3A28DD1840DEC9D:prebuilt/com/example/ams/golovolomki/Activities/AnswerActivity.dex
@@ -4262,4 +4262,4 @@ SHA-3516C00A94332CB04D89266E470A76AA11200B45:prebuilt/es/dmoral/toasty/R$styleab
 SHA-2B938E20E9018CB86E64F99A011F040D94A4817D:prebuilt/es/dmoral/toasty/R.dex
 SHA-F70B29014145E13270A7B9FC6BAE3BA45D57DC50:prebuilt/es/dmoral/toasty/Toasty.dex
 SHA-5DE894DF2ECFB86274796456E22EDDC11FD0C194:prebuilt/es/dmoral/toasty/ToastyUtils.dex
-SHA-6108EB3873540349666350E1CB5BB8F90230D0F6:digest
+SHA-7143D426BF3C4188E81DC10853F4E5AA3A916614:digest

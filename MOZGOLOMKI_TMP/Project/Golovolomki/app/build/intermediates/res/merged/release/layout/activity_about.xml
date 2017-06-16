@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android                 ="http://schemas.android.com/apk/res/android"
+    xmlns:tools                   ="http://schemas.android.com/tools"
+    android:layout_height         ="match_parent"
+    android:background            ="@color/colorActivityBackground"
+    android:layout_width          ="match_parent"
+    android:largeHeap             ="true"
+    android:orientation           ="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/about_title"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-1000dp"
+            android:layout_marginRight="-1000dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/view_basic"
+            android:text="@string/activity_about_title"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/about_main_text_top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/activity_about_app_version"
+            android:textAllCaps="true"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/about_text_view_top_text_size"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/about_main_text_middle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textAllCaps="true"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:text="@string/activity_about_description"
+            android:textColor="#000000"
+            android:textSize="@dimen/about_text_view_middle_text_size"/>
+
+        <TextView
+            android:id="@+id/about_main_text_copyright"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center_vertical|right"
+            android:text="@string/activity_about_copyright"
+            android:textColor="#000000"
+            android:textSize="@dimen/about_text_view_copyright_text_size"
+            tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-4dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginRight="-2dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/about_button_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/view_button"
+            android:text="@string/activity_about_button_email"
+            android:textColor="#000"
+            android:textSize="@dimen/action_bar_buttons_text_size"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <Button
+            android:id="@+id/about_button_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="-2dp"
+            android:layout_weight="1"
+            android:background="@drawable/view_button"
+            android:text="@string/activity_about_button_other_app"
+            android:textColor="#000"
+            android:textSize="@dimen/action_bar_buttons_text_size"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/about_button_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/view_button"
+            android:text="@string/activity_about_button_rate"
+            android:textColor="#000"
+            android:textSize="@dimen/action_bar_buttons_text_size"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>

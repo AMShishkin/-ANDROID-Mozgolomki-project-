@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android                 ="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height         ="match_parent"
+    android:background            ="@color/colorActivityBackground"
+    android:layout_width          ="match_parent"
+    android:orientation           ="vertical"
+    xmlns:ads                     ="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/answer_title"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-1000dp"
+            android:layout_marginRight="-1000dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/view_basic"
+            android:text="@string/activity_answer_title"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/answer_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp" />
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adViewAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ads:adSize="SMART_BANNER"
+                    ads:adUnitId="@string/banner_ad_unit_id_answer" />
+
+                <TextView
+                    android:id="@+id/answer_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center_vertical"
+                    android:scrollbars="none"
+                    android:text="@string/activity_answer_description"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/puzzle_fragment_main_text_size" />
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-4dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginRight="-2dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id                  ="@+id/answer_button_share"
+            android:text                ="@string/activity_answer_button_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background          ="@drawable/view_button"
+            android:layout_weight       ="1"
+            android:textSize            ="@dimen/action_bar_buttons_text_size"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor           ="#000000"
+            android:layout_marginRight  ="-1dp"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+        <Button
+            android:id                  ="@+id/answer_button_wiki"
+            android:text                ="@string/activity_answer_button_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background          ="@drawable/view_button"
+            android:layout_weight       ="1"
+            android:textSize            ="@dimen/action_bar_buttons_text_size"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor           ="#000000"
+            android:layout_marginLeft   ="-1dp"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+
+    </LinearLayout>
+</LinearLayout>

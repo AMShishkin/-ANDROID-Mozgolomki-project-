@@ -66,7 +66,7 @@ public class AboutActivity extends Activity {
 
                     case R.id.about_button_email:
                         Intent _emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "AMShishkin.vrn@gmail.com", null));
-                        _emailIntent.putExtra(Intent.EXTRA_SUBJECT, "[МОЗГОЛОМКИ]");
+                        _emailIntent.putExtra(Intent.EXTRA_SUBJECT, "[MOZGOLOMKI]");
                         startActivity(Intent.createChooser(_emailIntent, "Написать автору"));
                         break;
                 }

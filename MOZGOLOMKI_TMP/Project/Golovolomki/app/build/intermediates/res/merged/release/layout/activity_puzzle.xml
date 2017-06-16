@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android               ="http://schemas.android.com/apk/res/android"
+    xmlns:app                   ="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id                  ="@+id/main_content"
+    android:layout_width        ="match_parent"
+    android:layout_height       ="match_parent"
+    android:orientation         ="vertical"
+    android:background          ="@color/colorActivityBackground">
+
+    <LinearLayout
+        android:orientation     ="vertical"
+        android:layout_weight   ="1"
+        android:layout_width    ="match_parent"
+        android:layout_height   ="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id                  ="@+id/container"
+            android:overScrollMode      ="never"
+            android:layout_width        ="match_parent"
+            android:layout_height       ="match_parent"
+            app:layout_behavior         ="@string/appbar_scrolling_view_behavior"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-4dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginRight="-2dp"
+        android:orientation         ="horizontal"
+        android:layout_weight       ="0">
+
+        <Button
+            android:text="@string/activity_puzzle_button_advice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_puzzle_advice"
+            android:background="@drawable/view_button"
+            android:layout_weight="1"
+            android:textSize="@dimen/action_bar_buttons_text_size"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#000000"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <Button
+            android:text="@string/activity_puzzle_button_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_puzzle_favorite"
+            android:background="@drawable/view_button"
+            android:layout_weight="1"
+            android:textSize="@dimen/action_bar_buttons_text_size"
+            android:textColor="#000000"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="-1dp"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+        <Button
+            android:text="@string/activity_puzzle_button_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/puzzle_button_share"
+            android:background="@drawable/view_button"
+            android:layout_weight="1"
+            android:textSize="@dimen/action_bar_buttons_text_size"
+            android:textColor="#000000"
+            android:layout_marginRight="-2dp"
+            android:gravity="center_vertical|center_horizontal"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+        <Button
+            android:text="@string/activity_puzzle_button_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_puzzle_answer"
+            android:background="@drawable/view_button"
+            android:layout_weight="1"
+            android:textSize="@dimen/action_bar_buttons_text_size"
+            android:textColor="#000000"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+</LinearLayout>
