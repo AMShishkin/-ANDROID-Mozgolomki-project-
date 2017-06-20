@@ -6,11 +6,11 @@ android {
     compileSdkVersion 'Google Inc.:Google APIs:24'
     buildToolsVersion '25.0.2'
     defaultConfig {
-        applicationId "com.example.ams.golovolomki"
+        applicationId "com.project.golovolomki"
         minSdkVersion 18
         targetSdkVersion 19
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName '1.1'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         jackOptions {
             enabled true

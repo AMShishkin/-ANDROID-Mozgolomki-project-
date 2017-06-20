@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           android:installLocation="preferExternal"
-          package="com.example.ams.golovolomki">
+          package="com.project.golovolomki">
 
     <uses-permission
         android:name="android.permission.INTERNET"/>
@@ -23,7 +23,7 @@
         android:theme="@style/Theme.AppCompat.NoActionBar">
 
         <activity
-            android:name=".Activities.SplashScreenActivity"
+            android:name="com.project.golovolomki.Activities.SplashScreenActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,24 +31,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activities.PuzzleActivity"
+            android:name="com.project.golovolomki.Activities.PuzzleActivity"
             android:label="@string/title_activity_puzzle"
             android:theme="@style/Theme.AppCompat.NoActionBar">
     </activity>
 
-        <activity android:name=".Activities.AnswerActivity" />
+        <activity android:name="com.project.golovolomki.Activities.AnswerActivity" />
 
         <activity
-            android:name=".Activities.MainActivity"
+            android:name="com.project.golovolomki.Activities.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
 
         <activity
-            android:name=".Activities.SettingsActivity"
+            android:name="com.project.golovolomki.Activities.SettingsActivity"
             android:label="@string/title_activity_settings"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
 
-        <activity android:name=".Activities.AboutActivity"></activity>
+        <activity android:name="com.project.golovolomki.Activities.AboutActivity"></activity>
     </application>
 
 </manifest>

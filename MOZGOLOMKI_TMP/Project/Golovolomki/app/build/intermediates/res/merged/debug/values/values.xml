@@ -665,7 +665,7 @@
     <string name="activity_settings_switch_text_size">УВЕЛИЧИТЬ РАЗМЕР ШРИФТА\n(будет добавлено в след. обновлении)</string>
     <string name="activity_settings_switch_to_last">АВТОМАТИЧЕСКИ ОТКРЫВАТЬ\nГОЛОВОЛОМКУ С ЗАКЛАДКОЙ\nПРИ ЗАПУСКЕ ПРИЛОЖЕНИЯ</string>
     <string name="activity_settings_title">||||||||НАСТРОЙКИ||||||||</string>
-    <string name="app_name">MOZGOLOMKI</string>
+    <string name="app_name">МОЗГОЛОМКИ</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="apprater_dialog_title">Оценить приложение</string>
     <string name="apprater_later">ПОЗЖЕ</string>

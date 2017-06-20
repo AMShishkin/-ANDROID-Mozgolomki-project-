@@ -2,7 +2,7 @@
 manifest
 ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:2:1-54:12
 	package
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:4:11-48
+		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:4:11-44
 		INJECTED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -69,12 +69,12 @@ MERGED from [com.android.support:support-compat:25.1.0] C:\Users\User\.android\b
 		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:23:9-59
 	android:isGame
 		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:16:9-31
-activity#com.example.ams.golovolomki.Activities.SplashScreenActivity
+activity#com.project.golovolomki.Activities.SplashScreenActivity
 ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:25:9-32:20
 	android:theme
 		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:27:13-47
 	android:name
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:26:13-60
+		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:26:13-83
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:28:13-31:29
 action#android.intent.action.MAIN
@@ -85,38 +85,38 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:30:17-77
 	android:name
 		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:30:27-74
-activity#com.example.ams.golovolomki.Activities.PuzzleActivity
+activity#com.project.golovolomki.Activities.PuzzleActivity
 ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:33:9-37:16
 	android:label
 		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:35:13-58
 	android:theme
 		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:36:13-63
 	android:name
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:34:13-54
-activity#com.example.ams.golovolomki.Activities.AnswerActivity
-ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:39:9-63
+		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:34:13-77
+activity#com.project.golovolomki.Activities.AnswerActivity
+ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:39:9-86
 	android:name
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:39:19-60
-activity#com.example.ams.golovolomki.Activities.MainActivity
+		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:39:19-83
+activity#com.project.golovolomki.Activities.MainActivity
 ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:41:9-44:66
 	android:label
 		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:43:13-56
 	android:theme
 		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:44:13-63
 	android:name
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:42:13-52
-activity#com.example.ams.golovolomki.Activities.SettingsActivity
+		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:42:13-75
+activity#com.project.golovolomki.Activities.SettingsActivity
 ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:46:9-49:66
 	android:label
 		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:48:13-60
 	android:theme
 		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:49:13-63
 	android:name
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:47:13-56
-activity#com.example.ams.golovolomki.Activities.AboutActivity
-ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:51:9-71
+		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:47:13-79
+activity#com.project.golovolomki.Activities.AboutActivity
+ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:51:9-94
 	android:name
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:51:19-59
+		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:51:19-82
 uses-sdk
 INJECTED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.github.GrenderG:Toasty:1.1.2] C:\Users\User\.android\build-cache\764d2756c090c2af587213de43eda75ba9652c5f\output\AndroidManifest.xml:7:5-9:41

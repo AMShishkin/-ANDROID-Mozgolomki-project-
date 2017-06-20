@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ams.golovolomki"
+    package="com.project.golovolomki"
     android:installLocation="preferExternal"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="18"
@@ -27,7 +27,7 @@
         android:targetSdkVersion="21"
         android:theme="@style/Theme.AppCompat.NoActionBar" >
         <activity
-            android:name="com.example.ams.golovolomki.Activities.SplashScreenActivity"
+            android:name="com.project.golovolomki.Activities.SplashScreenActivity"
             android:theme="@style/SplashTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,20 +36,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.ams.golovolomki.Activities.PuzzleActivity"
+            android:name="com.project.golovolomki.Activities.PuzzleActivity"
             android:label="@string/title_activity_puzzle"
             android:theme="@style/Theme.AppCompat.NoActionBar" >
         </activity>
-        <activity android:name="com.example.ams.golovolomki.Activities.AnswerActivity" />
+        <activity android:name="com.project.golovolomki.Activities.AnswerActivity" />
         <activity
-            android:name="com.example.ams.golovolomki.Activities.MainActivity"
+            android:name="com.project.golovolomki.Activities.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name="com.example.ams.golovolomki.Activities.SettingsActivity"
+            android:name="com.project.golovolomki.Activities.SettingsActivity"
             android:label="@string/title_activity_settings"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name="com.example.ams.golovolomki.Activities.AboutActivity" />
+        <activity android:name="com.project.golovolomki.Activities.AboutActivity" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ams.golovolomki.test" >
+    package="com.project.golovolomki.test" >
 
     <uses-sdk
         android:minSdkVersion="18"
@@ -10,8 +10,8 @@
         android:name="android.support.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.example.ams.golovolomki"
-        android:targetPackage="com.example.ams.golovolomki" />
+        android:label="Tests for com.project.golovolomki"
+        android:targetPackage="com.project.golovolomki" />
 
     <application>
         <uses-library android:name="android.test.runner" />
