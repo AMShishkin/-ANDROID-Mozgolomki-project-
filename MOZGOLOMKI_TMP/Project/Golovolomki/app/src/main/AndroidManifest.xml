@@ -15,7 +15,6 @@
         android:extractNativeLibs="true"
         android:isGame="false"
         android:largeHeap="true"
-
         android:minSdkVersion="16"
         android:screenOrientation="portrait"
         android:supportsRtl="true"

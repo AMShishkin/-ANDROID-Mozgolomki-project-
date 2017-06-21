@@ -3575,7 +3575,14 @@
                     "endOffset": 52041
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2641,
+                        "endColumn": 79,
+                        "endOffset": 2716
+                    }
                 }
             },
             {
@@ -4019,14 +4026,7 @@
                     "endOffset": 54898
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 1,
-                        "startColumn": 4,
-                        "startOffset": 17,
-                        "endColumn": 47,
-                        "endOffset": 60
-                    }
+                    "file": "C:\\Users\\User\\Desktop\\GitHub\\Android_Mozgolomki_Project\\MOZGOLOMKI_TMP\\Project\\Golovolomki\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
