@@ -54,7 +54,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String  DATABASE_NAME       = "Puzzle.db";
 
     @SuppressWarnings("!!! D.B. VERSION !!!")
-    public static final int      SCHEMA              = 5;
+    public static final int      SCHEMA              = 6;
 
 
     public static final String   TABLE_NAME_PUZZLE   = "PuzzleTable",

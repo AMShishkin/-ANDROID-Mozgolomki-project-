@@ -2,11 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.project.golovolomki"
     android:installLocation="preferExternal"
-    android:versionCode="3"
-    android:versionName="1.0.5" >
+    android:versionCode="4"
+    android:versionName="1.0.6" >
 
     <uses-sdk
-        android:minSdkVersion="18"
+        android:minSdkVersion="16"
         android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -24,7 +24,7 @@
         android:minSdkVersion="16"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
-        android:targetSdkVersion="21"
+        android:targetSdkVersion="19"
         android:theme="@style/Theme.AppCompat.NoActionBar" >
         <activity
             android:name="com.project.golovolomki.Activities.SplashScreenActivity"

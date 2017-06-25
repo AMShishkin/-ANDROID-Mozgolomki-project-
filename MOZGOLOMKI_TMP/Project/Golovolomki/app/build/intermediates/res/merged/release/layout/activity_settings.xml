@@ -16,7 +16,7 @@
 
         <TextView
             android:id="@+id/settings_title"
-            android:gravity="center_vertical"
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="-1000dp"
@@ -24,7 +24,6 @@
             android:layout_marginTop="-2dp"
             android:background="@drawable/view_basic"
             android:text="@string/activity_settings_title"
-            android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="@dimen/title_text_size"
             android:textStyle="bold"/>

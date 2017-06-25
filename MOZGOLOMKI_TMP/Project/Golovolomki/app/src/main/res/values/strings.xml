@@ -40,7 +40,7 @@
 
     <string name="activity_about_title">||||||||ПОМОЩЬ||||||||</string>
     <string name="activity_about_copyright">© А.М. Шишкин, 2017</string>
-    <string name="activity_about_app_version">Версия приложения: 1.0.5</string>
+    <string name="activity_about_app_version">Версия приложения: 1.0.6</string>
     <string name="activity_about_button_email">АВТОРУ</string>
     <string name="activity_about_button_other_app">ОТ АВТОРА</string>
     <string name="activity_about_button_rate">ОЦЕНИТЬ</string>
