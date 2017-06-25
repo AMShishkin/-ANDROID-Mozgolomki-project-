@@ -1,15 +1,18 @@
 package com.project.golovolomki.MainActivityViewList;
 
-import java.util.ArrayList;
 import android.content.Context;
 import android.graphics.Typeface;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
 import com.project.golovolomki.Assistants.DatabaseHelper;
 import com.project.golovolomki.R;
+
+import java.util.ArrayList;
 
 public class Adapter extends BaseAdapter {
     private Context ctx;
@@ -49,7 +52,7 @@ public class Adapter extends BaseAdapter {
         ((TextView) view.findViewById(R.id.titleItem)).setText(p.name);
         ((TextView) view.findViewById(R.id.complexityItem)).setText(p.complexity);
         ((TextView) view.findViewById(R.id.descriptionItem)).setText(p.description);
-        view.findViewById(R.id.descriptionItem).setTextAlignment(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? View.TEXT_ALIGNMENT_CENTER : View.TEXT_ALIGNMENT_VIEW_START);
+        ((TextView) view.findViewById(R.id.descriptionItem)).setGravity(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? Gravity.CENTER : Gravity.START);
         ((TextView) view.findViewById(R.id.itemFavorite)).setText(p.favorite);
         ((TextView) view.findViewById(R.id.state_item)).setText(p.state);
 

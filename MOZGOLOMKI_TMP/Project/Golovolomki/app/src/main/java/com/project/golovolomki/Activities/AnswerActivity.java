@@ -5,6 +5,7 @@ import android.content.pm.ActivityInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -44,14 +45,14 @@ public class AnswerActivity extends AppCompatActivity {
     private void InitializeInterface() {
         // set text view font
         ((TextView) findViewById(R.id.answer_title)).setTypeface(Typefaces.get(getBaseContext(), "fonts/mainFont.ttf"));
-        ((TextView)findViewById(R.id.answer_text_view)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
+        ((TextView) findViewById(R.id.answer_text_view)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
 
         // set buttons font
         ((Button) findViewById(R.id.answer_button_share)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
         ((Button) findViewById(R.id.answer_button_wiki)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
 
         // set text view alignment
-        findViewById(R.id.answer_text_view).setTextAlignment(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? View.TEXT_ALIGNMENT_CENTER : View.TEXT_ALIGNMENT_VIEW_START);
+        ((TextView) findViewById(R.id.answer_text_view)).setGravity(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? Gravity.CENTER : Gravity.START);
 
         // set buttons listener
         View.OnClickListener _oclBtn = new View.OnClickListener() {

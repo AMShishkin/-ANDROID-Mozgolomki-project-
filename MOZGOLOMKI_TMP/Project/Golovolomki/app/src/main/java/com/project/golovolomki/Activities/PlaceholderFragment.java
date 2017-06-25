@@ -6,17 +6,19 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.project.golovolomki.Assistants.DatabaseHelper;
-import com.project.golovolomki.BuildConfig;
-import com.project.golovolomki.R;
+
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
+import com.project.golovolomki.Assistants.DatabaseHelper;
+import com.project.golovolomki.BuildConfig;
+import com.project.golovolomki.R;
 import com.squareup.picasso.Picasso;
 
 public class PlaceholderFragment extends Fragment {
@@ -71,7 +73,7 @@ public class PlaceholderFragment extends Fragment {
 
         // text view fragment puzzle <- main puzzle text
         if (textViewFragmentPuzzle == null) textViewFragmentPuzzle = (TextView)rootView.findViewById(R.id.textViewFragmentPuzzle);
-        rootView.findViewById(R.id.textViewFragmentPuzzle).setTextAlignment(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? View.TEXT_ALIGNMENT_CENTER : View.TEXT_ALIGNMENT_VIEW_START);
+        ((TextView) rootView.findViewById(R.id.textViewFragmentPuzzle)).setGravity(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? Gravity.CENTER : Gravity.START);
         textViewFragmentPuzzle.setText(DatabaseHelper.valueCursor.getString(3));
         textViewFragmentPuzzle.setTypeface(Typefaces.get(inflater.getContext(), "fonts/cavia_puzzle.ttf"));
 

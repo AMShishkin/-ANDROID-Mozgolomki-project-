@@ -3,7 +3,7 @@
     package="com.project.golovolomki.test" >
 
     <uses-sdk
-        android:minSdkVersion="18"
+        android:minSdkVersion="16"
         android:targetSdkVersion="19" />
 
     <instrumentation

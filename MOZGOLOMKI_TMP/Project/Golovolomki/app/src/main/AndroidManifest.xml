@@ -18,7 +18,7 @@
         android:minSdkVersion="16"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
-        android:targetSdkVersion="21"
+        android:targetSdkVersion="19"
         android:theme="@style/Theme.AppCompat.NoActionBar">
 
         <activity
