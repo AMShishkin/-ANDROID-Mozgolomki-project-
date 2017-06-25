@@ -59,10 +59,10 @@ public class PlaceholderFragment extends Fragment {
 
 
 
-
+        // set image
         Picasso.with(rootView.getContext())
                 .load(DatabaseHelper.listImages.get(PuzzleActivity.currentPuzzleNumber))
-                .resize(384, 256)
+
                 .placeholder(R.drawable.img99999) // заглушка до загрузки изображения
                 .into((ImageView)rootView.findViewById(R.id.imageView2));
 

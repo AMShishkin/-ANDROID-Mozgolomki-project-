@@ -5,7 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_alignParentStart="true"
     android:layout_alignParentTop="true"
     android:multiprocess="true"
     android:orientation="vertical">
@@ -41,18 +40,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:orientation="vertical">
 
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:alpha="0.95"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/scrollbar"
+                app:srcCompat="@drawable/img0"
                 tools:ignore="ContentDescription" />
 
 
@@ -118,9 +118,8 @@
                 android:id="@+id/adView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 ads:adSize="SMART_BANNER"
-                ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+                ads:adUnitId="@string/banner_ad_unit_id" />
 
             <Space
                 android:layout_width="match_parent"
