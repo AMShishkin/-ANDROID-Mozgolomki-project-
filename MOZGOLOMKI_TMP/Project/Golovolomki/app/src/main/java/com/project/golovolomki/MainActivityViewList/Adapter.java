@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-
 import com.project.golovolomki.Assistants.DatabaseHelper;
 import com.project.golovolomki.R;
 
@@ -56,14 +55,11 @@ public class Adapter extends BaseAdapter {
         ((TextView) view.findViewById(R.id.itemFavorite)).setText(p.favorite);
         ((TextView) view.findViewById(R.id.state_item)).setText(p.state);
 
-
-
         ((TextView) view.findViewById(R.id.titleItem)).setTypeface(Typeface.createFromAsset(ctx.getAssets(), "fonts/titleItem.ttf"));
         ((TextView) view.findViewById(R.id.item_main_number)).setTypeface(Typeface.createFromAsset(ctx.getAssets(), "fonts/titleItem.ttf"));
         ((TextView) view.findViewById(R.id.descriptionItem)).setTypeface(Typeface.createFromAsset(ctx.getAssets(), "fonts/cavia_puzzle.ttf"));
         ((TextView) view.findViewById(R.id.state_item)).setTypeface(Typeface.createFromAsset(ctx.getAssets(), "fonts/titleItem.ttf"));
         ((TextView) view.findViewById(R.id.complexityItem)).setTypeface(Typeface.createFromAsset(ctx.getAssets(), "fonts/titleItem.ttf"));
-
 
         return view;
     }
@@ -71,6 +67,4 @@ public class Adapter extends BaseAdapter {
     ViewListItem getViewItem(int position) {
         return ((ViewListItem) getItem(position));
     }
-
-
 }

@@ -19,6 +19,7 @@ import com.google.android.gms.ads.AdView;
 import com.project.golovolomki.Assistants.DatabaseHelper;
 import com.project.golovolomki.BuildConfig;
 import com.project.golovolomki.R;
+import com.project.golovolomki.apprater.AppRater;
 import com.squareup.picasso.Picasso;
 
 public class PlaceholderFragment extends Fragment {

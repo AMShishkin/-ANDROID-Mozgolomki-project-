@@ -15,6 +15,7 @@ import com.google.android.gms.ads.AdView;
 import com.project.golovolomki.Assistants.DatabaseHelper;
 import com.project.golovolomki.BuildConfig;
 import com.project.golovolomki.R;
+import com.project.golovolomki.apprater.AppRater;
 
 public class AnswerActivity extends AppCompatActivity {
     private final AdSize ADSIZE = AdSize.SMART_BANNER;
@@ -27,6 +28,12 @@ public class AnswerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_answer);
 
         InitializeInterface();
+
+        // SHOW RATE DIALOG ON LAST PAGE
+        if (!Boolean.valueOf(DatabaseHelper.settingsCursor.getString(7)) && (PuzzleActivity.mViewPager.getCurrentItem() + 1) == DatabaseHelper.valueCursor.getCount()) {
+            AppRater.setDarkTheme();
+            AppRater.showRateDialog(AnswerActivity.this);
+        }
     }
 
     @Override
@@ -113,7 +120,7 @@ public class AnswerActivity extends AppCompatActivity {
     }
 
     private void InitializeAnswer() {
-        ((TextView) findViewById(R.id.answer_title)).setText("||||||||ОТВЕТ||||||||");
+        ((TextView)findViewById(R.id.answer_title)).setText("||||||||ОТВЕТ||||||||");
 
         DatabaseHelper.valueCursor.moveToFirst();
         DatabaseHelper.valueCursor.move(PuzzleActivity.mViewPager.getCurrentItem());

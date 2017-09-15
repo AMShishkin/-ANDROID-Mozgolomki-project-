@@ -79,8 +79,8 @@ f:prebuilt/com/squareup/picasso/Request.dex
 f:prebuilt/com/squareup/picasso/Request$Builder.dex
 f:prebuilt/com/squareup/picasso/BitmapHunter$2.dex
 f:prebuilt/com/squareup/picasso/Downloader$ResponseException.dex
-f:prebuilt/com/project/golovolomki/Activities/MainActivity$1.dex
 f:prebuilt/com/project/golovolomki/Activities/SettingsActivity$1$1.dex
+f:prebuilt/com/project/golovolomki/Activities/MainActivity$1.dex
 f:prebuilt/com/project/golovolomki/Activities/AboutActivity.dex
 f:prebuilt/com/project/golovolomki/Activities/AnswerActivity.dex
 f:prebuilt/com/project/golovolomki/Activities/Typefaces.dex
@@ -89,12 +89,12 @@ f:prebuilt/com/project/golovolomki/Activities/PuzzleActivity$1.dex
 f:prebuilt/com/project/golovolomki/Activities/PuzzleActivity.dex
 f:prebuilt/com/project/golovolomki/Activities/AboutActivity$1.dex
 f:prebuilt/com/project/golovolomki/Activities/SettingsActivity$2.dex
-f:prebuilt/com/project/golovolomki/Activities/AnswerActivity$1.dex
 f:prebuilt/com/project/golovolomki/Activities/PlaceholderFragment.dex
+f:prebuilt/com/project/golovolomki/Activities/AnswerActivity$1.dex
 f:prebuilt/com/project/golovolomki/Activities/MainActivity$2.dex
-f:prebuilt/com/project/golovolomki/Activities/SectionsPagerAdapter.dex
-f:prebuilt/com/project/golovolomki/Activities/SplashScreenActivity.dex
 f:prebuilt/com/project/golovolomki/Activities/SettingsActivity$1$2.dex
+f:prebuilt/com/project/golovolomki/Activities/SplashScreenActivity.dex
+f:prebuilt/com/project/golovolomki/Activities/SectionsPagerAdapter.dex
 f:prebuilt/com/project/golovolomki/Activities/MainActivity$3.dex
 f:prebuilt/com/project/golovolomki/Activities/SettingsActivity.dex
 f:prebuilt/com/project/golovolomki/Activities/SettingsActivity$1.dex
@@ -4355,8 +4355,8 @@ f:jayce/com/squareup/picasso/Downloader.jayce
 f:jayce/com/squareup/picasso/NetworkPolicy.jayce
 f:jayce/com/project/golovolomki/Activities/AboutActivity$1.jayce
 f:jayce/com/project/golovolomki/Activities/SettingsActivity$1$2.jayce
-f:jayce/com/project/golovolomki/Activities/AnswerActivity$1.jayce
 f:jayce/com/project/golovolomki/Activities/SplashScreenActivity.jayce
+f:jayce/com/project/golovolomki/Activities/AnswerActivity$1.jayce
 f:jayce/com/project/golovolomki/Activities/MainActivity$3.jayce
 f:jayce/com/project/golovolomki/Activities/PlaceholderFragment.jayce
 f:jayce/com/project/golovolomki/Activities/SettingsActivity.jayce
@@ -4364,9 +4364,9 @@ f:jayce/com/project/golovolomki/Activities/MainActivity$2.jayce
 f:jayce/com/project/golovolomki/Activities/SettingsActivity$2.jayce
 f:jayce/com/project/golovolomki/Activities/PuzzleActivity$1.jayce
 f:jayce/com/project/golovolomki/Activities/MainActivity.jayce
+f:jayce/com/project/golovolomki/Activities/SettingsActivity$1.jayce
 f:jayce/com/project/golovolomki/Activities/SectionsPagerAdapter.jayce
 f:jayce/com/project/golovolomki/Activities/PuzzleActivity.jayce
-f:jayce/com/project/golovolomki/Activities/SettingsActivity$1.jayce
 f:jayce/com/project/golovolomki/Activities/MainActivity$1.jayce
 f:jayce/com/project/golovolomki/Activities/SettingsActivity$1$1.jayce
 f:jayce/com/project/golovolomki/Activities/AboutActivity.jayce
