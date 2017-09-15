@@ -31,22 +31,19 @@ public class AboutActivity extends Activity {
     }
 
     private void InitializeInterface() {
-        // set text views font
+        // TEXT VIEW FONT
         ((TextView) findViewById(R.id.about_title)).setTypeface(Typefaces.get(getBaseContext(), "fonts/mainFont.ttf"));
         ((TextView) findViewById(R.id.about_main_text_top)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
         ((TextView) findViewById(R.id.about_main_text_middle)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
         ((TextView) findViewById(R.id.about_main_text_copyright)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
-
-        // set text views text alignment
+        // TEXT VIEW ALIGNMENT
         ((TextView) findViewById(R.id.about_main_text_top)).setGravity(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? Gravity.CENTER : Gravity.START);
         ((TextView) findViewById(R.id.about_main_text_middle)).setGravity(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? Gravity.CENTER : Gravity.START);
-
-        // set buttons font
+        // BUTTON FONT
         ((Button) findViewById(R.id.about_button_email)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
         ((Button) findViewById(R.id.about_button_app)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
         ((Button) findViewById(R.id.about_button_rate)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
-
-        // set buttons listener
+        // BUTTON LISTENER
         View.OnClickListener _oclBtn = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
