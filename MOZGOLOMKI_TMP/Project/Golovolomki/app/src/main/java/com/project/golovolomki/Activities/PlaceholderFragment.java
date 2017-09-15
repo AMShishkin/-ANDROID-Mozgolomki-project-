@@ -58,8 +58,6 @@ public class PlaceholderFragment extends Fragment {
 
         rootView = inflater.inflate(R.layout.fragment_puzzle, null);
 
-
-
         // set image
         Picasso.with(rootView.getContext())
                 .load(DatabaseHelper.listImages.get(PuzzleActivity.currentPuzzleNumber))
@@ -91,14 +89,18 @@ public class PlaceholderFragment extends Fragment {
         if (DatabaseHelper.favoriteCursor.getString(2).equals("")) textViewState.setText("НОВАЯ");
         else textViewState.setText(DatabaseHelper.favoriteCursor.getString(2));
 
-
         // text favorite
         TextView textView = (TextView)rootView.findViewById(R.id.puzzle_favorite);
         if (DatabaseHelper.favoriteCursor.getString(1).equals("★")) textView.setText("★");
         else textView.setText("☆");
         textView.setTypeface(Typefaces.get(inflater.getContext(), "fonts/cavia_puzzle.ttf"));
 
-        // set admob block
+        InitializeAdmobBlcok(rootView, adSize);
+
+        return rootView;
+    }
+
+    private static void InitializeAdmobBlcok(View rootView, AdSize adSize) {
         AdView _adContainer = (AdView) rootView.findViewById(R.id.adView);
         AdView _mAdView = new AdView(rootView.getContext());
         _mAdView.setAdSize(adSize);
@@ -113,8 +115,6 @@ public class PlaceholderFragment extends Fragment {
         else _adRequest = new AdRequest.Builder().build();
 
         _mAdView.loadAd(_adRequest);
-
-        return rootView;
     }
 
     private void FavoriteState() {
