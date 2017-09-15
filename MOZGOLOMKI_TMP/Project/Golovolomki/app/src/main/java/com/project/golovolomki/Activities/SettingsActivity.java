@@ -42,12 +42,13 @@ public class SettingsActivity extends AppCompatActivity {
     }
 
     private void InitializeFonts() {
+        // TEXT VIEW FONT
         ((TextView)findViewById(R.id.settings_title)).setTypeface(Typefaces.get(getBaseContext(), "fonts/mainFont.ttf"));
-
+        // SWITCH FONT
         ((android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_toup)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
         ((android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_tolast)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
         ((android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_text_align)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
-
+        // BUTTON FONT
         ((Button)findViewById(R.id.settings_button_reset)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
     }
 
@@ -121,15 +122,13 @@ public class SettingsActivity extends AppCompatActivity {
             }
         };
 
-        // switch list sort
+        // SWITCH LIST SORT
         _switchToUp.setChecked(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(4)));
         _switchToUp.setOnClickListener(_onClkListener);
-
-        // switch move to last
+        // SWITCH MOVE TO LAST
         _switchMoveToLast.setChecked(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(6)));
         _switchMoveToLast.setOnClickListener(_onClkListener);
-
-        // switch text align
+        // SWITCH TEXT ALIGN
         _switchTextAlign.setChecked(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)));
         _switchTextAlign.setOnClickListener(_onClkListener);
     }
