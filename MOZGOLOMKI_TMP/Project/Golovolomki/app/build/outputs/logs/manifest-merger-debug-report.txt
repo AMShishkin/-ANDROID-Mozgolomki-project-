@@ -1,182 +1,182 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:2:1-53:12
 	package
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:4:11-44
-		INJECTED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:4:11-44
+		INJECTED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
 	android:installLocation
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:3:11-51
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:3:11-51
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:6:5-7:53
-MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\User\.android\build-cache\c34b34c91f967cdc63282a08b4537c654a3a1918\output\AndroidManifest.xml:19:5-66
+ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:6:5-7:53
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\a.shishkin\.android\build-cache\a3104df6b0feb5ec86042744909304231ae41f59\output\AndroidManifest.xml:19:5-66
 	android:name
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:7:9-51
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:7:9-51
 uses-permission#com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
-ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:9:5-116
+ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:9:5-116
 	android:name
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:9:22-114
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:9:22-114
 application
-ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:11:5-51:19
-MERGED from [com.github.GrenderG:Toasty:1.1.2] C:\Users\User\.android\build-cache\764d2756c090c2af587213de43eda75ba9652c5f\output\AndroidManifest.xml:11:5-15:19
-MERGED from [com.google.android.gms:play-services-location:10.0.1] C:\Users\User\.android\build-cache\d0c9262506373c9f66dcd55c14e9279890bc6138\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\User\.android\build-cache\c34b34c91f967cdc63282a08b4537c654a3a1918\output\AndroidManifest.xml:23:5-27:19
-MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] C:\Users\User\.android\build-cache\e1a882e885d7b71f8b67529b61d6ae40d0ff1c84\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\User\.android\build-cache\3ab8de4694f9d074c62681f7f84aab5e6d0f369a\output\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\User\.android\build-cache\84a316320094c044ee49284abc1c42dcd7c613ba\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-gass:10.0.1] C:\Users\User\.android\build-cache\ccb109229d2c8d91edcb1d46de0717724d7147c6\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\User\.android\build-cache\3999433acfb79d1ea9b7ed3702bfc9420f1ec830\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:design:25.1.0] C:\Users\User\.android\build-cache\7afc9d3d7169fbed233a677bfa86eb77b3c44a5f\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\User\.android\build-cache\afb963bcd4bac635a866d5bdf633968726f58077\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\User\.android\build-cache\33578a4acba9fa7524dc43653a800c8bcdfd6daa\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\User\.android\build-cache\d4acac64e2f5d3693aabb5ed5d38a8ae2293b0ce\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.1.0] C:\Users\User\.android\build-cache\75a9729b7515a409c6d1a21c8f0c7db3cc4b75af\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.1.0] C:\Users\User\.android\build-cache\201a666f5fcd1c295554f60f24d636af9e21c8dd\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\User\.android\build-cache\068877e266a8b082a8f0f5da27de4ab735d263f1\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\User\.android\build-cache\86ec9189c63e016be387239937435ca9a0ef802c\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\User\.android\build-cache\27134ccb08f4ec06733ee420db66aeda3b31f6dc\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\User\.android\build-cache\a39d93c7c0d29b82e7e2cc7ae3b2bf5ce7289b01\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.1.0] C:\Users\User\.android\build-cache\daa7c2f89aa6bffeccfe7256de36e127c1942306\output\AndroidManifest.xml:25:5-20
+ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:11:5-51:19
+MERGED from [com.github.GrenderG:Toasty:1.1.2] C:\Users\a.shishkin\.android\build-cache\fb04aa2d19758116521ba758c97c38f720b86629\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.gms:play-services-location:10.0.1] C:\Users\a.shishkin\.android\build-cache\52b274d8b559db8c619cc6c0db9b38ba8421baef\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\a.shishkin\.android\build-cache\a3104df6b0feb5ec86042744909304231ae41f59\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] C:\Users\a.shishkin\.android\build-cache\5f988eac5d3d91706ace735393817bdf13fabd94\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\a.shishkin\.android\build-cache\c66e4418c87d597876e3d6e727796372ea6c1873\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\a.shishkin\.android\build-cache\4354d534c575e0d7ed37ea157423cad022a3bec4\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.0.1] C:\Users\a.shishkin\.android\build-cache\54893ebda8e9303f4e9e06c98e5c76ebd3b96072\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\a.shishkin\.android\build-cache\04f13f9477e7c97e0e582a160c2874b2f0ee22ba\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:design:25.1.0] C:\Users\a.shishkin\.android\build-cache\07d7d7275b6867f1c1208fc4efba77644e7e171b\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\a.shishkin\.android\build-cache\327252a05da75463f6f8e61e5180c564245dfe12\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\a.shishkin\.android\build-cache\7e22b233a7756393f99422cacd7d3bc8d9479994\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\a.shishkin\.android\build-cache\5b65db328242f87a4d2206ebee45f292d8c658ed\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.1.0] C:\Users\a.shishkin\.android\build-cache\bc14e41b06aa02913331fed969ad62a86cb4457f\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\a.shishkin\.android\build-cache\2420abc39a2eb589ecc2b46d0e8022aedf74c17c\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\a.shishkin\.android\build-cache\08a02c92ce57e1f76197849a238d9e608943bf53\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\a.shishkin\.android\build-cache\64cd0ecc5cdc99a6cf200b13c29261ffeb5ae4a2\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\a.shishkin\.android\build-cache\c9dff711508a836baae98649d33d972a4696725f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\a.shishkin\.android\build-cache\73047ecd5fb11f84062210375ada615b5b41d5af\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\a.shishkin\.android\build-cache\58b11113c4e7794dd61eb57603136403ccda2d24\output\AndroidManifest.xml:25:5-20
 	android:extractNativeLibs
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:15:9-41
 	android:screenOrientation
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:19:9-45
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:19:9-45
 	android:label
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:14:9-41
 	android:supportsRtl
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:20:9-35
 	android:targetSdkVersion
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:21:9-38
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:21:9-38
 	android:icon
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:12:9-43
 	android:installLocation
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:13:9-49
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:13:9-49
 	android:largeHeap
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:17:9-33
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:17:9-33
 	android:allowBackup
-		ADDED from [com.github.GrenderG:Toasty:1.1.2] C:\Users\User\.android\build-cache\764d2756c090c2af587213de43eda75ba9652c5f\output\AndroidManifest.xml:12:9-35
+		ADDED from [com.github.GrenderG:Toasty:1.1.2] C:\Users\a.shishkin\.android\build-cache\fb04aa2d19758116521ba758c97c38f720b86629\output\AndroidManifest.xml:12:9-35
 	android:minSdkVersion
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:18:9-35
 	android:theme
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:22:9-59
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:22:9-59
 	android:isGame
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:16:9-31
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:16:9-31
 activity#com.project.golovolomki.Activities.SplashScreenActivity
-ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:24:9-31:20
+ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:24:9-31:20
 	android:theme
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:26:13-47
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:26:13-47
 	android:name
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:25:13-83
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:25:13-83
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:27:13-30:29
+ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:29:27-74
 activity#com.project.golovolomki.Activities.PuzzleActivity
-ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:32:9-36:16
+ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:32:9-36:16
 	android:label
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:34:13-58
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:34:13-58
 	android:theme
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:35:13-63
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:35:13-63
 	android:name
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:33:13-77
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:33:13-77
 activity#com.project.golovolomki.Activities.AnswerActivity
-ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:38:9-86
+ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:38:9-86
 	android:name
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:38:19-83
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:38:19-83
 activity#com.project.golovolomki.Activities.MainActivity
-ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:40:9-43:66
+ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:40:9-43:66
 	android:label
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:42:13-56
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:42:13-56
 	android:theme
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:43:13-63
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:43:13-63
 	android:name
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:41:13-75
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:41:13-75
 activity#com.project.golovolomki.Activities.SettingsActivity
-ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:45:9-48:66
+ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:45:9-48:66
 	android:label
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:47:13-60
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:47:13-60
 	android:theme
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:48:13-63
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:48:13-63
 	android:name
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:46:13-79
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:46:13-79
 activity#com.project.golovolomki.Activities.AboutActivity
-ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:50:9-94
+ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:50:9-94
 	android:name
-		ADDED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:50:19-82
+		ADDED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml:50:19-82
 uses-sdk
-INJECTED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.github.GrenderG:Toasty:1.1.2] C:\Users\User\.android\build-cache\764d2756c090c2af587213de43eda75ba9652c5f\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-location:10.0.1] C:\Users\User\.android\build-cache\d0c9262506373c9f66dcd55c14e9279890bc6138\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-ads:10.0.1] C:\Users\User\.android\build-cache\dece3e9fcf7b17534703bc5ad0e8bcc536011116\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\User\.android\build-cache\c34b34c91f967cdc63282a08b4537c654a3a1918\output\AndroidManifest.xml:22:5-42
-MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] C:\Users\User\.android\build-cache\e1a882e885d7b71f8b67529b61d6ae40d0ff1c84\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\User\.android\build-cache\3ab8de4694f9d074c62681f7f84aab5e6d0f369a\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\User\.android\build-cache\84a316320094c044ee49284abc1c42dcd7c613ba\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-gass:10.0.1] C:\Users\User\.android\build-cache\ccb109229d2c8d91edcb1d46de0717724d7147c6\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\User\.android\build-cache\3999433acfb79d1ea9b7ed3702bfc9420f1ec830\output\AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:design:25.1.0] C:\Users\User\.android\build-cache\7afc9d3d7169fbed233a677bfa86eb77b3c44a5f\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\User\.android\build-cache\afb963bcd4bac635a866d5bdf633968726f58077\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\User\.android\build-cache\33578a4acba9fa7524dc43653a800c8bcdfd6daa\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\User\.android\build-cache\d4acac64e2f5d3693aabb5ed5d38a8ae2293b0ce\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.1.0] C:\Users\User\.android\build-cache\485263c39649513ae72c618530e562837b369712\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.1.0] C:\Users\User\.android\build-cache\75a9729b7515a409c6d1a21c8f0c7db3cc4b75af\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.1.0] C:\Users\User\.android\build-cache\201a666f5fcd1c295554f60f24d636af9e21c8dd\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\User\.android\build-cache\068877e266a8b082a8f0f5da27de4ab735d263f1\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\User\.android\build-cache\86ec9189c63e016be387239937435ca9a0ef802c\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\User\.android\build-cache\27134ccb08f4ec06733ee420db66aeda3b31f6dc\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\User\.android\build-cache\a39d93c7c0d29b82e7e2cc7ae3b2bf5ce7289b01\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.1.0] C:\Users\User\.android\build-cache\daa7c2f89aa6bffeccfe7256de36e127c1942306\output\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.github.GrenderG:Toasty:1.1.2] C:\Users\a.shishkin\.android\build-cache\fb04aa2d19758116521ba758c97c38f720b86629\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-location:10.0.1] C:\Users\a.shishkin\.android\build-cache\52b274d8b559db8c619cc6c0db9b38ba8421baef\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-ads:10.0.1] C:\Users\a.shishkin\.android\build-cache\694cbc9a0bd0118a247e3e6b9c617c53ef2672b1\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\a.shishkin\.android\build-cache\a3104df6b0feb5ec86042744909304231ae41f59\output\AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] C:\Users\a.shishkin\.android\build-cache\5f988eac5d3d91706ace735393817bdf13fabd94\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\a.shishkin\.android\build-cache\c66e4418c87d597876e3d6e727796372ea6c1873\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\a.shishkin\.android\build-cache\4354d534c575e0d7ed37ea157423cad022a3bec4\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-gass:10.0.1] C:\Users\a.shishkin\.android\build-cache\54893ebda8e9303f4e9e06c98e5c76ebd3b96072\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\a.shishkin\.android\build-cache\04f13f9477e7c97e0e582a160c2874b2f0ee22ba\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:design:25.1.0] C:\Users\a.shishkin\.android\build-cache\07d7d7275b6867f1c1208fc4efba77644e7e171b\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\a.shishkin\.android\build-cache\327252a05da75463f6f8e61e5180c564245dfe12\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\a.shishkin\.android\build-cache\7e22b233a7756393f99422cacd7d3bc8d9479994\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\a.shishkin\.android\build-cache\5b65db328242f87a4d2206ebee45f292d8c658ed\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.1.0] C:\Users\a.shishkin\.android\build-cache\bf70bff6bed3303cc8da5735ab3139e63f004312\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.1.0] C:\Users\a.shishkin\.android\build-cache\bc14e41b06aa02913331fed969ad62a86cb4457f\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\a.shishkin\.android\build-cache\2420abc39a2eb589ecc2b46d0e8022aedf74c17c\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\a.shishkin\.android\build-cache\08a02c92ce57e1f76197849a238d9e608943bf53\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\a.shishkin\.android\build-cache\64cd0ecc5cdc99a6cf200b13c29261ffeb5ae4a2\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\a.shishkin\.android\build-cache\c9dff711508a836baae98649d33d972a4696725f\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\a.shishkin\.android\build-cache\73047ecd5fb11f84062210375ada615b5b41d5af\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\a.shishkin\.android\build-cache\58b11113c4e7794dd61eb57603136403ccda2d24\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.1.0] C:\Users\User\.android\build-cache\7afc9d3d7169fbed233a677bfa86eb77b3c44a5f\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.1.0] C:\Users\a.shishkin\.android\build-cache\07d7d7275b6867f1c1208fc4efba77644e7e171b\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\User\Desktop\GitHub\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Git\Android_Mozgolomki_Project\MOZGOLOMKI_TMP\Project\Golovolomki\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\User\.android\build-cache\c34b34c91f967cdc63282a08b4537c654a3a1918\output\AndroidManifest.xml:20:5-78
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\a.shishkin\.android\build-cache\a3104df6b0feb5ec86042744909304231ae41f59\output\AndroidManifest.xml:20:5-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\User\.android\build-cache\c34b34c91f967cdc63282a08b4537c654a3a1918\output\AndroidManifest.xml:20:22-76
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\a.shishkin\.android\build-cache\a3104df6b0feb5ec86042744909304231ae41f59\output\AndroidManifest.xml:20:22-76
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\User\.android\build-cache\c34b34c91f967cdc63282a08b4537c654a3a1918\output\AndroidManifest.xml:25:9-232
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\a.shishkin\.android\build-cache\a3104df6b0feb5ec86042744909304231ae41f59\output\AndroidManifest.xml:25:9-232
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\User\.android\build-cache\c34b34c91f967cdc63282a08b4537c654a3a1918\output\AndroidManifest.xml:25:72-181
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\a.shishkin\.android\build-cache\a3104df6b0feb5ec86042744909304231ae41f59\output\AndroidManifest.xml:25:72-181
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\User\.android\build-cache\c34b34c91f967cdc63282a08b4537c654a3a1918\output\AndroidManifest.xml:25:182-230
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\a.shishkin\.android\build-cache\a3104df6b0feb5ec86042744909304231ae41f59\output\AndroidManifest.xml:25:182-230
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\User\.android\build-cache\c34b34c91f967cdc63282a08b4537c654a3a1918\output\AndroidManifest.xml:25:19-71
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\a.shishkin\.android\build-cache\a3104df6b0feb5ec86042744909304231ae41f59\output\AndroidManifest.xml:25:19-71
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\User\.android\build-cache\c34b34c91f967cdc63282a08b4537c654a3a1918\output\AndroidManifest.xml:26:9-131
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\a.shishkin\.android\build-cache\a3104df6b0feb5ec86042744909304231ae41f59\output\AndroidManifest.xml:26:9-131
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\User\.android\build-cache\c34b34c91f967cdc63282a08b4537c654a3a1918\output\AndroidManifest.xml:26:92-129
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\a.shishkin\.android\build-cache\a3104df6b0feb5ec86042744909304231ae41f59\output\AndroidManifest.xml:26:92-129
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\User\.android\build-cache\c34b34c91f967cdc63282a08b4537c654a3a1918\output\AndroidManifest.xml:26:19-91
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\a.shishkin\.android\build-cache\a3104df6b0feb5ec86042744909304231ae41f59\output\AndroidManifest.xml:26:19-91
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\User\.android\build-cache\3ab8de4694f9d074c62681f7f84aab5e6d0f369a\output\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\a.shishkin\.android\build-cache\c66e4418c87d597876e3d6e727796372ea6c1873\output\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\User\.android\build-cache\3ab8de4694f9d074c62681f7f84aab5e6d0f369a\output\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\a.shishkin\.android\build-cache\c66e4418c87d597876e3d6e727796372ea6c1873\output\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\User\.android\build-cache\3ab8de4694f9d074c62681f7f84aab5e6d0f369a\output\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\a.shishkin\.android\build-cache\c66e4418c87d597876e3d6e727796372ea6c1873\output\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\User\.android\build-cache\3ab8de4694f9d074c62681f7f84aab5e6d0f369a\output\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\a.shishkin\.android\build-cache\c66e4418c87d597876e3d6e727796372ea6c1873\output\AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\User\.android\build-cache\3999433acfb79d1ea9b7ed3702bfc9420f1ec830\output\AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\a.shishkin\.android\build-cache\04f13f9477e7c97e0e582a160c2874b2f0ee22ba\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\User\.android\build-cache\3999433acfb79d1ea9b7ed3702bfc9420f1ec830\output\AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\a.shishkin\.android\build-cache\04f13f9477e7c97e0e582a160c2874b2f0ee22ba\output\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\User\.android\build-cache\3999433acfb79d1ea9b7ed3702bfc9420f1ec830\output\AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\a.shishkin\.android\build-cache\04f13f9477e7c97e0e582a160c2874b2f0ee22ba\output\AndroidManifest.xml:20:20-65

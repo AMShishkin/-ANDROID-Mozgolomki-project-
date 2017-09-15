@@ -39,7 +39,6 @@ public class PuzzleActivity extends AppCompatActivity {
         MainActivity.db = MainActivity.bdh.getReadableDatabase();
         // return db settings
         DatabaseHelper.settingsCursor = MainActivity.db.rawQuery("SELECT * FROM " + DatabaseHelper.TABLE_NAME_SETTINGS, null);
-
         // return db favorite
         DatabaseHelper.favoriteCursor = MainActivity.db.rawQuery("SELECT * FROM " + DatabaseHelper.TABLE_NAME_FAVORITE, null);
 
@@ -64,9 +63,6 @@ public class PuzzleActivity extends AppCompatActivity {
             AppRater.setDarkTheme();
             AppRater.showRateDialog(PuzzleActivity.this);
         }
-
-
-
     }
 
     @Override
