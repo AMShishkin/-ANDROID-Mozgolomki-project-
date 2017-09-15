@@ -50,18 +50,15 @@ public class AnswerActivity extends AppCompatActivity {
     }
 
     private void InitializeInterface() {
-        // set text view font
-        ((TextView) findViewById(R.id.answer_title)).setTypeface(Typefaces.get(getBaseContext(), "fonts/mainFont.ttf"));
-        ((TextView) findViewById(R.id.answer_text_view)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
-
-        // set buttons font
-        ((Button) findViewById(R.id.answer_button_share)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
-        ((Button) findViewById(R.id.answer_button_wiki)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
-
-        // set text view alignment
+        // TEXT VIEW FONT
+        ((TextView)findViewById(R.id.answer_title)).setTypeface(Typefaces.get(getBaseContext(), "fonts/mainFont.ttf"));
+        ((TextView)findViewById(R.id.answer_text_view)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
+        // BUTTON FONT
+        ((Button)findViewById(R.id.answer_button_share)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
+        ((Button)findViewById(R.id.answer_button_wiki)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
+        // TEXT VIEW ALIGNMENT
         ((TextView) findViewById(R.id.answer_text_view)).setGravity(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? Gravity.CENTER : Gravity.START);
-
-        // set buttons listener
+        // BUTTONS LISTENER
         View.OnClickListener _oclBtn = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -101,8 +98,11 @@ public class AnswerActivity extends AppCompatActivity {
 
         findViewById(R.id.answer_button_share).setOnClickListener(_oclBtn);
         findViewById(R.id.answer_button_wiki).setOnClickListener(_oclBtn);
+        // ADMOB BLOCK
+        InitializeAdmobBlock();
+    }
 
-        // set admob block
+    private void InitializeAdmobBlock() {
         AdView _adContainer = (AdView) findViewById(R.id.adViewAnswer);
         AdView _mAdView = new AdView(getApplicationContext());
         _mAdView.setAdSize(ADSIZE);
@@ -129,7 +129,6 @@ public class AnswerActivity extends AppCompatActivity {
         ((Button) findViewById(R.id.answer_button_wiki)).setText("ВИКИПЕДИЯ");
 
         MainActivity.db = MainActivity.bdh.getReadableDatabase();
-
         MainActivity.bdh.UpdatePuzzleState(MainActivity.db, DatabaseHelper.valueCursor.getInt(0), "ПРОЧИТАНО");
         MainActivity.db.close();
     }
