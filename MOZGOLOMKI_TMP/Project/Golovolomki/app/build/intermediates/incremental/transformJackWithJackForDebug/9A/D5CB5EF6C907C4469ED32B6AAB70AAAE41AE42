@@ -4173,10 +4173,10 @@ SHA-B5076D589FCBE430D59226A19F49D323E3DA6BEC:prebuilt/com/project/golovolomki/Ac
 SHA-862893EFAE06B40A81144DD627770044CA5B6D89:prebuilt/com/project/golovolomki/Activities/MainActivity$2.dex
 SHA-A179EA99F2EF6877C24A110C2EED589668362EB5:prebuilt/com/project/golovolomki/Activities/MainActivity$3.dex
 SHA-BF30CA45FA880BFCC9537E5F4A677393B4209D89:prebuilt/com/project/golovolomki/Activities/MainActivity.dex
-SHA-6619B0211FC6283A20591901ADD09D301CE58478:prebuilt/com/project/golovolomki/Activities/PlaceholderFragment.dex
+SHA-D27300C75BB0483DF05DA9021400C2895B4E57D1:prebuilt/com/project/golovolomki/Activities/PlaceholderFragment.dex
 SHA-97ECFE2045CE2D22C1D08C85D014C3D1231A67E8:prebuilt/com/project/golovolomki/Activities/PuzzleActivity$1.dex
 SHA-A4F76511BA7D0D22E0150666A7BCBC176D02DFE6:prebuilt/com/project/golovolomki/Activities/PuzzleActivity.dex
-SHA-C15AF632BB33440F963162BC92DA47AD4089E086:prebuilt/com/project/golovolomki/Activities/SectionsPagerAdapter.dex
+SHA-2724091E8E2AA1391FF6D659CEB92F50227DFD7A:prebuilt/com/project/golovolomki/Activities/SectionsPagerAdapter.dex
 SHA-82DE43FC8AEE3C3118B5FACD47A3B78D87E92D37:prebuilt/com/project/golovolomki/Activities/SettingsActivity$1$1.dex
 SHA-0C34D74993AC3E3C5BB0BDF4D60A667A19FE47E4:prebuilt/com/project/golovolomki/Activities/SettingsActivity$1$2.dex
 SHA-F3F536B2A58DA60F38B10345612D2C5BDD434BE0:prebuilt/com/project/golovolomki/Activities/SettingsActivity$1.dex
@@ -4316,4 +4316,4 @@ SHA-3516C00A94332CB04D89266E470A76AA11200B45:prebuilt/es/dmoral/toasty/R$styleab
 SHA-2B938E20E9018CB86E64F99A011F040D94A4817D:prebuilt/es/dmoral/toasty/R.dex
 SHA-F70B29014145E13270A7B9FC6BAE3BA45D57DC50:prebuilt/es/dmoral/toasty/Toasty.dex
 SHA-5DE894DF2ECFB86274796456E22EDDC11FD0C194:prebuilt/es/dmoral/toasty/ToastyUtils.dex
-SHA-C388E6B90F3E7738DA332C35F96C18C4F426FE8F:digest
+SHA-06AAC6E6CB85A906C8264E173644BF2EFCCD6EA0:digest

@@ -1,6 +1,8 @@
 package com.project.golovolomki.Activities;
 
 import android.content.Context;
+import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -91,8 +93,14 @@ public class PlaceholderFragment extends Fragment {
 
         // text favorite
         TextView textView = (TextView)rootView.findViewById(R.id.puzzle_favorite);
-        if (DatabaseHelper.favoriteCursor.getString(1).equals("★")) textView.setText("★");
-        else textView.setText("☆");
+        if (DatabaseHelper.favoriteCursor.getString(1).equals("★")) {
+            textView.setTextColor(Color.argb(255, 46, 150, 33));
+            textView.setText("★");
+        }
+        else {
+            textView.setTextColor(Color.BLACK);
+            textView.setText("☆");
+        }
         textView.setTypeface(Typefaces.get(inflater.getContext(), "fonts/cavia_puzzle.ttf"));
 
         InitializeAdmobBlcok(rootView, adSize);
