@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.TypedValue;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -15,6 +16,9 @@ import com.project.golovolomki.R;
 import es.dmoral.toasty.Toasty;
 
 public class SettingsActivity extends AppCompatActivity {
+
+    private final float TEXT_SIZE_MAX = 5.0f;
+    private android.support.v7.widget.SwitchCompat _switchToUp, _switchMoveToLast, _switchTextAlign, _switchTextSize, settings_switch_night_theme;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,13 +30,20 @@ public class SettingsActivity extends AppCompatActivity {
 
         InitializeFonts();
         InitializeButtons();
+
+        _switchToUp = (android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_toup);
+        _switchMoveToLast = (android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_tolast);
+        _switchTextAlign = (android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_text_align);
+        _switchTextSize = (android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_text_size);
+        settings_switch_night_theme = (android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_night_theme);
     }
 
     @Override
     public void onResume() {
         super.onResume();
 
-        InitializeSwitches();
+        InitializeSwitchesListeners();
+        InitializeTextSize();
     }
 
     @Override
@@ -50,6 +61,35 @@ public class SettingsActivity extends AppCompatActivity {
         ((android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_text_align)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
         // BUTTON FONT
         ((Button)findViewById(R.id.settings_button_reset)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
+    }
+
+    private void InitializeTextSize() {
+        // INITIALIZE D.B.
+        MainActivity.bdh = new DatabaseHelper(getApplicationContext());
+        MainActivity.db = MainActivity.bdh.getReadableDatabase();
+        // GET D.B. SETTINGS
+        DatabaseHelper.settingsCursor = MainActivity.db.rawQuery("SELECT * FROM " + DatabaseHelper.TABLE_NAME_SETTINGS, null);
+        DatabaseHelper.settingsCursor.moveToFirst();
+        MainActivity.db.close();
+
+        if (Boolean.valueOf(DatabaseHelper.settingsCursor.getString(10))) {
+            _switchToUp.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size) + TEXT_SIZE_MAX);
+            _switchMoveToLast.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size) + TEXT_SIZE_MAX);
+            _switchTextAlign.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size) + TEXT_SIZE_MAX);
+            _switchTextSize.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size) + TEXT_SIZE_MAX);
+            settings_switch_night_theme.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size) + TEXT_SIZE_MAX);
+
+            ((TextView)findViewById(R.id.settings_button_reset)).setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.action_bar_buttons_text_size) + TEXT_SIZE_MAX);
+        }
+        else {
+            _switchToUp.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size));
+            _switchMoveToLast.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size));
+            _switchTextAlign.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size));
+            _switchTextSize.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size));
+            settings_switch_night_theme.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size));
+
+            ((TextView)findViewById(R.id.settings_button_reset)).setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.action_bar_buttons_text_size));
+        }
     }
 
     private void InitializeButtons() {
@@ -90,13 +130,7 @@ public class SettingsActivity extends AppCompatActivity {
         });
     }
 
-    private void InitializeSwitches() {
-        final android.support.v7.widget.SwitchCompat _switchToUp, _switchMoveToLast, _switchTextAlign;
-
-        _switchToUp = (android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_toup);
-        _switchMoveToLast = (android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_tolast);
-        _switchTextAlign = (android.support.v7.widget.SwitchCompat)findViewById(R.id.settings_switch_text_align);
-
+    private void InitializeSwitchesListeners() {
         View.OnClickListener _onClkListener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -118,6 +152,15 @@ public class SettingsActivity extends AppCompatActivity {
                         MainActivity.bdh.UpdateSettingsTextAlign(MainActivity.db, 1, _switchTextAlign.isChecked());
                         MainActivity.db.close();
                         break;
+
+                    case R.id.settings_switch_text_size:
+                        MainActivity.db = MainActivity.bdh.getReadableDatabase();
+                        MainActivity.bdh.UpdateSettingsTextSize(MainActivity.db, 1, _switchTextSize.isChecked());
+                        MainActivity.db.close();
+                        InitializeTextSize();
+                        break;
+
+
                 }
             }
         };
@@ -131,5 +174,8 @@ public class SettingsActivity extends AppCompatActivity {
         // SWITCH TEXT ALIGN
         _switchTextAlign.setChecked(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)));
         _switchTextAlign.setOnClickListener(_onClkListener);
+        // SWITCH TEXT SIZE
+        _switchTextSize.setChecked(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(10)));
+        _switchTextSize.setOnClickListener(_onClkListener);
     }
 }

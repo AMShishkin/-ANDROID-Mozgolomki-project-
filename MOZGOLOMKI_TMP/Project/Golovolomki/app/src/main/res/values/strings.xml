@@ -35,7 +35,7 @@
     <string name="activity_settings_switch_text_align">ВЫРАВНИВАНИЕ ТЕКСТА\nПО ЦЕНТРУ</string>
     <string name="activity_settings_button_reset_settings">СБРОСИТЬ НАСТРОЙКИ</string>
     <string name="activity_settings_switch_sorting">Сортировать список\nпо возрастанию</string>
-    <string name="activity_settings_switch_text_size">УВЕЛИЧИТЬ РАЗМЕР ШРИФТА\n(будет добавлено в след. обновлении)</string>
+    <string name="activity_settings_switch_text_size">УВЕЛИЧИТЬ РАЗМЕР ШРИФТА</string>
     <string name="activity_settings_switch_night_theme">НОЧНОЙ РЕЖИМ\n(будет добавлено в след. обновлении)</string>
 
     <string name="activity_about_title">||||||||ПОМОЩЬ||||||||</string>

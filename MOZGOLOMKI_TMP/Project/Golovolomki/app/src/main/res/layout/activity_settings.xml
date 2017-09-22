@@ -87,8 +87,6 @@
             android:layout_marginLeft="@dimen/settings_switch_margin_left_right"
             android:layout_marginRight="@dimen/settings_switch_margin_left_right"
             android:layout_weight="1"
-            android:enabled="false"
-            android:textStyle="italic"
             android:text="@string/activity_settings_switch_text_size"
             android:textAllCaps="true"
             android:textColor="#000000"

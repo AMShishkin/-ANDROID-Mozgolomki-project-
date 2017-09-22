@@ -23,9 +23,9 @@ import java.util.ArrayList;
 */
 
 /* table SettingsTable structure
-+--------+---------------+--------------+-------------+----------+-----------------+----------------+------------+----------------+---------------+
-|- 0 id -|- 1 lastIndex -|- 2 appStart -|- 3 dbindex -|- 4 toUp -|- 5 doubleClick -|- 6 moveToLast -|- 7 isRate -|- 8 toNextRate -|- 9 textAlign -|
-+--------+---------------+--------------+-------------+----------+-----------------+----------------+------------+----------------+---------------+
++--------+---------------+--------------+-------------+----------+-----------------+----------------+------------+----------------+---------------+---------------+
+|- 0 id -|- 1 lastIndex -|- 2 appStart -|- 3 dbindex -|- 4 toUp -|- 5 doubleClick -|- 6 moveToLast -|- 7 isRate -|- 8 toNextRate -|- 9 textAlign -|- 10 textSize -|
++--------+---------------+--------------+-------------+----------+-----------------+----------------+------------+----------------+---------------+---------------+
 
 1 - index of the last shown puzzle
 2 - count starting app
@@ -36,6 +36,7 @@ import java.util.ArrayList;
 7 - rate flag
 8 - count to next show rating dialog
 9 - text align left-center
+10 - text size
 */
 
 /* table Favorite structure
@@ -54,7 +55,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String  DATABASE_NAME       = "Puzzle.db";
 
     @SuppressWarnings("!!! D.B. VERSION !!!")
-    public static final int      SCHEMA              = 6;
+    public static final int      SCHEMA              = 8;
 
 
     public static final String   TABLE_NAME_PUZZLE   = "PuzzleTable",
@@ -84,6 +85,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             COLUMN_SETTINGS_ISRATE      = "isRate",
             COLUMN_SETTINGS_TONEXTRATE  = "toNextRate",
             COLUMN_SETTINGS_TEXTALIGN   = "textAlign",
+            COLUMN_SETTINGS_TEXTSIZE    = "textSize",
 
             COLUMN_FAVORITE_ID          = "id",
             COLUMN_FAVORITE_FAVORITE    = "favorite",
@@ -127,8 +129,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 + COLUMN_SETTINGS_MOVETOLAST    + ", "
                 + COLUMN_SETTINGS_ISRATE        + ", "
                 + COLUMN_SETTINGS_TONEXTRATE    + ", "
-                + COLUMN_SETTINGS_TEXTALIGN     + ") "
-                + "VALUES (0, 0, 1, 'true', 'true', 'false', 'false', 2, 'true');"); // WARNING! UPDATE DB INDEX
+                + COLUMN_SETTINGS_TEXTALIGN     + ", "
+                + COLUMN_SETTINGS_TEXTSIZE      + ") "
+                + "VALUES (0, 0, 1, 'true', 'true', 'false', 'false', 2, 'true', 'false');"); // WARNING! UPDATE DB INDEX
     }
 
     public void InitializationFavoriteTable(SQLiteDatabase db) {
@@ -310,6 +313,15 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.update(TABLE_NAME_SETTINGS, contentValues, "id=" + id, null);
     }
 
+    public void UpdateSettingsTextSize(SQLiteDatabase db, long id, boolean textSize) {
+        contentValues = new ContentValues();
+
+        if (textSize) contentValues.put(COLUMN_SETTINGS_TEXTSIZE, "true");
+        else contentValues.put(COLUMN_SETTINGS_TEXTSIZE, "false");
+
+        db.update(TABLE_NAME_SETTINGS, contentValues, "id=" + id, null);
+    }
+
 
 
 
@@ -357,8 +369,11 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 + COLUMN_SETTINGS_MOVETOLAST    + " TEXT, "
                 + COLUMN_SETTINGS_ISRATE        + " TEXT, "
                 + COLUMN_SETTINGS_TONEXTRATE    + " INTEGER, "
-                + COLUMN_SETTINGS_TEXTALIGN     + " TEXT"
+                + COLUMN_SETTINGS_TEXTALIGN     + " TEXT, "
+                + COLUMN_SETTINGS_TEXTSIZE      + " TEXT"
                 + ");");
+
+
 
         InitializationSettingsTable(db);
     }
@@ -419,7 +434,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 + COLUMN_SETTINGS_MOVETOLAST    + " TEXT, "
                 + COLUMN_SETTINGS_ISRATE        + " TEXT, "
                 + COLUMN_SETTINGS_TONEXTRATE    + " INTEGER, "
-                + COLUMN_SETTINGS_TEXTALIGN     + " TEXT"
+                + COLUMN_SETTINGS_TEXTALIGN     + " TEXT, "
+                + COLUMN_SETTINGS_TEXTSIZE      + " TEXT"
                 + ");");
 
         db.execSQL("CREATE TABLE "
