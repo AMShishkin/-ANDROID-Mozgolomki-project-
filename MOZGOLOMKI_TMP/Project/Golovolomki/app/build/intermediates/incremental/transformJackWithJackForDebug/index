@@ -87,14 +87,14 @@ f:prebuilt/com/project/golovolomki/Activities/Typefaces.dex
 f:prebuilt/com/project/golovolomki/Activities/MainActivity.dex
 f:prebuilt/com/project/golovolomki/Activities/PuzzleActivity$1.dex
 f:prebuilt/com/project/golovolomki/Activities/PuzzleActivity.dex
-f:prebuilt/com/project/golovolomki/Activities/AboutActivity$1.dex
 f:prebuilt/com/project/golovolomki/Activities/SettingsActivity$2.dex
-f:prebuilt/com/project/golovolomki/Activities/AnswerActivity$1.dex
+f:prebuilt/com/project/golovolomki/Activities/AboutActivity$1.dex
 f:prebuilt/com/project/golovolomki/Activities/PlaceholderFragment.dex
+f:prebuilt/com/project/golovolomki/Activities/AnswerActivity$1.dex
 f:prebuilt/com/project/golovolomki/Activities/MainActivity$2.dex
 f:prebuilt/com/project/golovolomki/Activities/SectionsPagerAdapter.dex
-f:prebuilt/com/project/golovolomki/Activities/SplashScreenActivity.dex
 f:prebuilt/com/project/golovolomki/Activities/SettingsActivity$1$2.dex
+f:prebuilt/com/project/golovolomki/Activities/SplashScreenActivity.dex
 f:prebuilt/com/project/golovolomki/Activities/MainActivity$3.dex
 f:prebuilt/com/project/golovolomki/Activities/SettingsActivity.dex
 f:prebuilt/com/project/golovolomki/Activities/SettingsActivity$1.dex
@@ -114,8 +114,8 @@ f:prebuilt/com/project/golovolomki/R$styleable.dex
 f:prebuilt/com/project/golovolomki/Assistants/DatabaseHelper.dex
 f:prebuilt/com/project/golovolomki/Assistants/DisplayMetricsHelper.dex
 f:prebuilt/com/project/golovolomki/R$id.dex
-f:prebuilt/com/project/golovolomki/R$attr.dex
 f:prebuilt/com/project/golovolomki/R$integer.dex
+f:prebuilt/com/project/golovolomki/R$attr.dex
 f:prebuilt/com/project/golovolomki/MainActivityViewList/Adapter.dex
 f:prebuilt/com/project/golovolomki/MainActivityViewList/ViewListItem.dex
 f:prebuilt/com/project/golovolomki/R$style.dex
@@ -2707,8 +2707,8 @@ f:prebuilt/android/support/v7/appcompat/R$drawable.dex
 f:prebuilt/android/support/v7/appcompat/R$color.dex
 f:prebuilt/android/support/v7/appcompat/R$styleable.dex
 f:prebuilt/android/support/v7/appcompat/R$id.dex
-f:prebuilt/android/support/v7/appcompat/R$attr.dex
 f:prebuilt/android/support/v7/appcompat/R$integer.dex
+f:prebuilt/android/support/v7/appcompat/R$attr.dex
 f:prebuilt/android/support/v7/appcompat/R$style.dex
 f:prebuilt/android/support/v7/appcompat/R$string.dex
 f:prebuilt/android/support/v7/appcompat/R$dimen.dex
@@ -4260,8 +4260,8 @@ f:prebuilt/es/dmoral/toasty/Toasty.dex
 f:prebuilt/es/dmoral/toasty/R$styleable.dex
 f:prebuilt/es/dmoral/toasty/ToastyUtils.dex
 f:prebuilt/es/dmoral/toasty/R$id.dex
-f:prebuilt/es/dmoral/toasty/R$integer.dex
 f:prebuilt/es/dmoral/toasty/R$attr.dex
+f:prebuilt/es/dmoral/toasty/R$integer.dex
 f:prebuilt/es/dmoral/toasty/R$style.dex
 f:prebuilt/es/dmoral/toasty/R$string.dex
 f:prebuilt/es/dmoral/toasty/R$dimen.dex
@@ -4355,8 +4355,8 @@ f:jayce/com/squareup/picasso/Downloader.jayce
 f:jayce/com/squareup/picasso/NetworkPolicy.jayce
 f:jayce/com/project/golovolomki/Activities/AboutActivity$1.jayce
 f:jayce/com/project/golovolomki/Activities/SettingsActivity$1$2.jayce
-f:jayce/com/project/golovolomki/Activities/SplashScreenActivity.jayce
 f:jayce/com/project/golovolomki/Activities/AnswerActivity$1.jayce
+f:jayce/com/project/golovolomki/Activities/SplashScreenActivity.jayce
 f:jayce/com/project/golovolomki/Activities/MainActivity$3.jayce
 f:jayce/com/project/golovolomki/Activities/PlaceholderFragment.jayce
 f:jayce/com/project/golovolomki/Activities/SettingsActivity.jayce
@@ -4365,8 +4365,8 @@ f:jayce/com/project/golovolomki/Activities/SettingsActivity$2.jayce
 f:jayce/com/project/golovolomki/Activities/PuzzleActivity$1.jayce
 f:jayce/com/project/golovolomki/Activities/MainActivity.jayce
 f:jayce/com/project/golovolomki/Activities/SectionsPagerAdapter.jayce
-f:jayce/com/project/golovolomki/Activities/PuzzleActivity.jayce
 f:jayce/com/project/golovolomki/Activities/SettingsActivity$1.jayce
+f:jayce/com/project/golovolomki/Activities/PuzzleActivity.jayce
 f:jayce/com/project/golovolomki/Activities/MainActivity$1.jayce
 f:jayce/com/project/golovolomki/Activities/SettingsActivity$1$1.jayce
 f:jayce/com/project/golovolomki/Activities/AboutActivity.jayce
@@ -4402,8 +4402,8 @@ f:jayce/com/project/golovolomki/MainActivityViewList/ViewListItem.jayce
 f:jayce/com/project/golovolomki/Alert/Alerter$2.jayce
 f:jayce/com/project/golovolomki/Alert/Alert$3.jayce
 f:jayce/com/project/golovolomki/Alert/Alerter.jayce
-f:jayce/com/project/golovolomki/Alert/Alerter$1.jayce
 f:jayce/com/project/golovolomki/Alert/Alert$1.jayce
+f:jayce/com/project/golovolomki/Alert/Alerter$1.jayce
 f:jayce/com/project/golovolomki/Alert/Alert.jayce
 f:jayce/com/project/golovolomki/Alert/Alert$2.jayce
 f:jayce/com/project/golovolomki/R$styleable.jayce
@@ -6983,8 +6983,8 @@ f:jayce/android/support/v7/appcompat/R$string.jayce
 f:jayce/android/support/v7/appcompat/R.jayce
 f:jayce/android/support/v7/appcompat/R$anim.jayce
 f:jayce/android/support/v7/appcompat/R$integer.jayce
-f:jayce/android/support/v7/appcompat/R$bool.jayce
 f:jayce/android/support/v7/appcompat/R$drawable.jayce
+f:jayce/android/support/v7/appcompat/R$bool.jayce
 f:jayce/android/support/v7/appcompat/R$attr.jayce
 f:jayce/android/support/v7/appcompat/R$id.jayce
 f:jayce/android/support/v7/appcompat/R$style.jayce
@@ -7215,8 +7215,8 @@ f:jayce/android/support/design/R$dimen.jayce
 f:jayce/android/support/design/R$animator.jayce
 f:jayce/android/support/design/BuildConfig.jayce
 f:jayce/android/support/design/R$string.jayce
-f:jayce/android/support/design/R.jayce
 f:jayce/android/support/design/R$anim.jayce
+f:jayce/android/support/design/R.jayce
 f:jayce/android/support/design/R$integer.jayce
 f:jayce/android/support/design/R$drawable.jayce
 f:jayce/android/support/design/R$bool.jayce

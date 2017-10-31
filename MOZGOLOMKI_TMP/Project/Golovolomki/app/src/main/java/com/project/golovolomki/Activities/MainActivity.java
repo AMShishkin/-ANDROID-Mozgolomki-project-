@@ -5,6 +5,7 @@ import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.database.sqlite.SQLiteDatabase;
+import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewConfiguration;
 import android.widget.AdapterView;
@@ -29,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
     private boolean isFavorite = false;
     private long back_pressed = 0;
+
+    private final float TEXT_SIZE_MAX = 2.0f;
 
     // main view list
     private ArrayList<ViewListItem> listItems = new ArrayList<>(50);
@@ -268,11 +271,28 @@ public class MainActivity extends AppCompatActivity {
 
     private void InitializeMenuButtons() {
         Button _buttonSettings, _buttonFavorite, _buttonToLastIndex, _buttonAbout;
+        float _textUpTextSize = TEXT_SIZE_MAX;
 
+        InitializeDataBase();
+
+        // SET TEXT SIZE
+        if (Boolean.valueOf(DatabaseHelper.settingsCursor.getString(10)))
+            _textUpTextSize = TEXT_SIZE_MAX;
+        else
+            _textUpTextSize *= 0;
+
+        // INITIALIZE BUTTONS
         _buttonSettings = (Button)findViewById(R.id.button_settings);
+        _buttonSettings.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.action_bar_buttons_text_size) + _textUpTextSize);
+
         _buttonFavorite = (Button)findViewById(R.id.button_favorite);
+        _buttonFavorite.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.action_bar_buttons_text_size) + _textUpTextSize);
+
         _buttonToLastIndex = (Button)findViewById(R.id.button_tolastindex);
+        _buttonToLastIndex.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.action_bar_buttons_text_size) + _textUpTextSize);
+
         _buttonAbout = (Button)findViewById(R.id.button_about);
+        _buttonAbout.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.action_bar_buttons_text_size) + _textUpTextSize);
 
         View.OnClickListener _oclBtn = new View.OnClickListener() {
             @Override
@@ -313,6 +333,17 @@ public class MainActivity extends AppCompatActivity {
         _buttonFavorite.setOnClickListener(_oclBtn);
         _buttonToLastIndex.setOnClickListener(_oclBtn);
         _buttonAbout.setOnClickListener(_oclBtn);
+    }
+
+    private void InitializeDataBase() {
+        // INITIALIZE D.B.
+        MainActivity.bdh = new DatabaseHelper(getApplicationContext());
+        MainActivity.db = MainActivity.bdh.getReadableDatabase();
+
+        // GET D.B. SETTINGS
+        DatabaseHelper.settingsCursor = MainActivity.db.rawQuery("SELECT * FROM " + DatabaseHelper.TABLE_NAME_SETTINGS, null);
+        DatabaseHelper.settingsCursor.moveToFirst();
+        MainActivity.db.close();
     }
 
     private void InitializeButtonFavoriteState() {

@@ -72,24 +72,19 @@ public class SettingsActivity extends AppCompatActivity {
         DatabaseHelper.settingsCursor.moveToFirst();
         MainActivity.db.close();
 
-        if (Boolean.valueOf(DatabaseHelper.settingsCursor.getString(10))) {
-            _switchToUp.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size) + TEXT_SIZE_MAX);
-            _switchMoveToLast.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size) + TEXT_SIZE_MAX);
-            _switchTextAlign.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size) + TEXT_SIZE_MAX);
-            _switchTextSize.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size) + TEXT_SIZE_MAX);
-            settings_switch_night_theme.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size) + TEXT_SIZE_MAX);
+        float _textUpTextSize = 5.0f;
 
-            ((TextView)findViewById(R.id.settings_button_reset)).setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.action_bar_buttons_text_size) + TEXT_SIZE_MAX);
-        }
-        else {
-            _switchToUp.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size));
-            _switchMoveToLast.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size));
-            _switchTextAlign.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size));
-            _switchTextSize.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size));
-            settings_switch_night_theme.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size));
+        if (Boolean.valueOf(DatabaseHelper.settingsCursor.getString(10)))
+            _textUpTextSize = TEXT_SIZE_MAX;
+        else _textUpTextSize *= 0;
 
-            ((TextView)findViewById(R.id.settings_button_reset)).setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.action_bar_buttons_text_size));
-        }
+        _switchToUp.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size) + _textUpTextSize);
+        _switchMoveToLast.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size) + _textUpTextSize);
+        _switchTextAlign.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size) + _textUpTextSize);
+        _switchTextSize.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size) + _textUpTextSize);
+        settings_switch_night_theme.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.settings_switch_text_size) + _textUpTextSize);
+
+        ((TextView)findViewById(R.id.settings_button_reset)).setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.action_bar_buttons_text_size) + _textUpTextSize);
     }
 
     private void InitializeButtons() {

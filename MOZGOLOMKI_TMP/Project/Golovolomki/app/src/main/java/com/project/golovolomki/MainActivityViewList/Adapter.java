@@ -2,12 +2,15 @@ package com.project.golovolomki.MainActivityViewList;
 
 import android.content.Context;
 import android.graphics.Typeface;
+import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
+import com.project.golovolomki.Activities.MainActivity;
 import com.project.golovolomki.Assistants.DatabaseHelper;
 import com.project.golovolomki.R;
 
@@ -17,11 +20,25 @@ public class Adapter extends BaseAdapter {
     private Context ctx;
     private LayoutInflater lInflater;
     private ArrayList<ViewListItem> objects;
+    private final float TEXT_SIZE_MAX = 2.0f;
 
     public Adapter(Context context, ArrayList<ViewListItem> listItem) {
         ctx = context;
         objects = listItem;
         lInflater = (LayoutInflater) ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        InitializeDataBase(context);
+    }
+
+    private void InitializeDataBase(Context context) {
+        // INITIALIZE D.B.
+        MainActivity.bdh = new DatabaseHelper(context);
+        MainActivity.db = MainActivity.bdh.getReadableDatabase();
+
+        // GET D.B. SETTINGS
+        DatabaseHelper.settingsCursor = MainActivity.db.rawQuery("SELECT * FROM " + DatabaseHelper.TABLE_NAME_SETTINGS, null);
+        DatabaseHelper.settingsCursor.moveToFirst();
+        MainActivity.db.close();
     }
 
     @Override
@@ -41,27 +58,48 @@ public class Adapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+        View _view = convertView;
 
-        View view = convertView;
-        if (view == null) view = lInflater.inflate(R.layout.item, parent, false);
+        if (_view == null)
+            _view = lInflater.inflate(R.layout.item, parent, false);
 
-        ViewListItem p = getViewItem(position);
+        ViewListItem _listItem = getViewItem(position);
 
-        ((TextView) view.findViewById(R.id.item_main_number)).setText(p.index + ".");
-        ((TextView) view.findViewById(R.id.titleItem)).setText(p.name);
-        ((TextView) view.findViewById(R.id.complexityItem)).setText(p.complexity);
-        ((TextView) view.findViewById(R.id.descriptionItem)).setText(p.description);
-        ((TextView) view.findViewById(R.id.descriptionItem)).setGravity(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? Gravity.CENTER : Gravity.START);
-        ((TextView) view.findViewById(R.id.itemFavorite)).setText(p.favorite);
-        ((TextView) view.findViewById(R.id.state_item)).setText(p.state);
+        InitializeText(_view, _listItem);
+        InitializeTextSize(_view);
+        InitizlizeFont(_view);
 
+        return _view;
+    }
+
+    private void InitizlizeFont(View view) {
         ((TextView) view.findViewById(R.id.titleItem)).setTypeface(Typeface.createFromAsset(ctx.getAssets(), "fonts/titleItem.ttf"));
         ((TextView) view.findViewById(R.id.item_main_number)).setTypeface(Typeface.createFromAsset(ctx.getAssets(), "fonts/titleItem.ttf"));
         ((TextView) view.findViewById(R.id.descriptionItem)).setTypeface(Typeface.createFromAsset(ctx.getAssets(), "fonts/cavia_puzzle.ttf"));
         ((TextView) view.findViewById(R.id.state_item)).setTypeface(Typeface.createFromAsset(ctx.getAssets(), "fonts/titleItem.ttf"));
         ((TextView) view.findViewById(R.id.complexityItem)).setTypeface(Typeface.createFromAsset(ctx.getAssets(), "fonts/titleItem.ttf"));
+    }
 
-        return view;
+    private void InitializeText(View view, ViewListItem listItem) {
+        ((TextView) view.findViewById(R.id.item_main_number)).setText(listItem.index + ".");
+        ((TextView) view.findViewById(R.id.titleItem)).setText(listItem.name);
+        ((TextView) view.findViewById(R.id.complexityItem)).setText(listItem.complexity);
+        ((TextView) view.findViewById(R.id.descriptionItem)).setText(listItem.description);
+
+        ((TextView) view.findViewById(R.id.descriptionItem)).setGravity(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? Gravity.CENTER : Gravity.START);
+        ((TextView) view.findViewById(R.id.itemFavorite)).setText(listItem.favorite);
+        ((TextView) view.findViewById(R.id.state_item)).setText(listItem.state);
+    }
+
+    private void InitializeTextSize(View view) {
+        ((TextView) view.findViewById(R.id.titleItem)).setTextSize(TypedValue.COMPLEX_UNIT_PX, ctx.getResources().getDimension(R.dimen.action_bar_buttons_text_size) + getSettingsTextSize());
+        ((TextView) view.findViewById(R.id.item_main_number)).setTextSize(TypedValue.COMPLEX_UNIT_PX, ctx.getResources().getDimension(R.dimen.action_bar_buttons_text_size) + getSettingsTextSize());
+        // ((TextView) view.findViewById(R.id.complexityItem)).setTextSize(TypedValue.COMPLEX_UNIT_PX, ctx.getResources().getDimension(R.dimen.action_bar_buttons_text_size) + getSettingsTextSize());
+        ((TextView) view.findViewById(R.id.descriptionItem)).setTextSize(TypedValue.COMPLEX_UNIT_PX, ctx.getResources().getDimension(R.dimen.action_bar_buttons_text_size) + getSettingsTextSize());
+    }
+
+    private float getSettingsTextSize() {
+        return Boolean.valueOf(DatabaseHelper.settingsCursor.getString(10)) ?  TEXT_SIZE_MAX : 0;
     }
 
     ViewListItem getViewItem(int position) {
