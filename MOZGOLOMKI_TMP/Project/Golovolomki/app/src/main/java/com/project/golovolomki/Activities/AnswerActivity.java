@@ -27,7 +27,9 @@ public class AnswerActivity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_answer);
 
-        InitializeInterface();
+        InitializeTextView();
+        InitializeButton();
+        InitializeAdmobBlock();
 
         // SHOW RATE DIALOG ON LAST PAGE
         if (!Boolean.valueOf(DatabaseHelper.settingsCursor.getString(7)) && (PuzzleActivity.mViewPager.getCurrentItem() + 1) == DatabaseHelper.valueCursor.getCount()) {
@@ -49,15 +51,18 @@ public class AnswerActivity extends AppCompatActivity {
         this.getBaseContext().startActivity(new Intent(Intent.ACTION_MAIN).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK).setClass(AnswerActivity.this, PuzzleActivity.class));
     }
 
-    private void InitializeInterface() {
+    private void InitializeTextView() {
         // TEXT VIEW FONT
         ((TextView)findViewById(R.id.answer_title)).setTypeface(Typefaces.get(getBaseContext(), "fonts/mainFont.ttf"));
         ((TextView)findViewById(R.id.answer_text_view)).setTypeface(Typefaces.get(getBaseContext(), "fonts/cavia_puzzle.ttf"));
+        // TEXT VIEW ALIGNMENT
+        ((TextView) findViewById(R.id.answer_text_view)).setGravity(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? Gravity.CENTER : Gravity.START);
+    }
+
+    private void InitializeButton() {
         // BUTTON FONT
         ((Button)findViewById(R.id.answer_button_share)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
         ((Button)findViewById(R.id.answer_button_wiki)).setTypeface(Typefaces.get(getBaseContext(), "fonts/titleItem.ttf"));
-        // TEXT VIEW ALIGNMENT
-        ((TextView) findViewById(R.id.answer_text_view)).setGravity(Boolean.valueOf(DatabaseHelper.settingsCursor.getString(9)) ? Gravity.CENTER : Gravity.START);
         // BUTTONS LISTENER
         View.OnClickListener _oclBtn = new View.OnClickListener() {
             @Override
@@ -65,7 +70,7 @@ public class AnswerActivity extends AppCompatActivity {
                 switch (v.getId()) {
                     case R.id.answer_button_share:
                         DatabaseHelper.valueCursor.moveToPosition(PuzzleActivity.mViewPager.getCurrentItem());
-                        Intent _sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+                        Intent _sharingIntent = new Intent(Intent.ACTION_SEND);
                         _sharingIntent.setType("text/plain");
                         String _shareBody, _sharedTitle;
                         if (PuzzleActivity.isAnswerAdvise) {
@@ -77,8 +82,8 @@ public class AnswerActivity extends AppCompatActivity {
                             _sharedTitle ="Поделиться подсказкой";
                         }
 
-                        _sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, DatabaseHelper.valueCursor.getString(1));
-                        _sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, _shareBody);
+                        _sharingIntent.putExtra(Intent.EXTRA_SUBJECT, DatabaseHelper.valueCursor.getString(1));
+                        _sharingIntent.putExtra(Intent.EXTRA_TEXT, _shareBody);
                         startActivity(Intent.createChooser(_sharingIntent, _sharedTitle));
                         break;
 
@@ -98,8 +103,6 @@ public class AnswerActivity extends AppCompatActivity {
 
         findViewById(R.id.answer_button_share).setOnClickListener(_oclBtn);
         findViewById(R.id.answer_button_wiki).setOnClickListener(_oclBtn);
-        // ADMOB BLOCK
-        InitializeAdmobBlock();
     }
 
     private void InitializeAdmobBlock() {
